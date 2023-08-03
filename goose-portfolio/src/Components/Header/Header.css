@@ -1,0 +1,24 @@
+.Header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* width: 200%;
+    height: 200%;
+    margin-left: -1%;
+    margin-bottom: 40%; */
+}
+
+.ProfileImg {
+    display: flex;
+    width: 550px;
+    height: 1000px;
+    border-radius: 30%;
+    margin-top: 3%;
+}
+
+.Goose {
+    position: absolute;
+    bottom: 0;
+    left: 20;
+    
+}
