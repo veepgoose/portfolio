@@ -1,6 +1,6 @@
 import React from 'react';
 import './EggSection.css';
-import PinkEgg from './PinkEgg.png';
+import PinkEgg from './GooseLay.gif';
 
 
 function EggSection (props) {
@@ -8,6 +8,7 @@ function EggSection (props) {
       <div className="EggSection">
       <header className={props.className}>
       <img src={PinkEgg} alt="PinkEgg" className="PinkEgg"/>
+      <button className="EggButton">Click to Hatch Me</button>    
      
        
       </header>
