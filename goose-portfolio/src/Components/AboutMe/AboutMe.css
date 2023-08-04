@@ -1,21 +1,28 @@
-.AboutMetext {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #83D4D4;
-    color: #534D56;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
-    text-align: center;
-    padding: 0 1rem;
-}
+
 
 .AboutMe {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    width: 80%;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 95px;
+
+    position: relative;
+    top: 50%;
+    left: 41.5%;
+    transform: translate(-50%, -20%);
+
+    border:20px solid #FB6FC6;
+    border-radius: 5px;
+
+    background-color: #EDE768;
+
+    box-shadow: 0 4px 8px 0 #534D56;
  
+}
+
+.AboutMeText {
+    text-align: center;
+    font-family: arial;
+    font-size: 20px;
+    color: #534D56;
 }
