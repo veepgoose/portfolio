@@ -1,0 +1,21 @@
+.AboutMetext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #83D4D4;
+    color: #534D56;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.AboutMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+}
