@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './Components/Header/Header';
+import EggSection from './Components/EggSection/EggSection';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         
         <p>
          <Header className="Header"/>
+         <EggSection className="EggSection"/>
         </p>
         
       </header>
