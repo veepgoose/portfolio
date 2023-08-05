@@ -6,9 +6,19 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  
   }
 
-  .PinkEgg {
+  .UncrackedEgg {
+    display: flex;
+    width: 450px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+  }
+
+  .HatchingEgg {
     display: flex;
     width: 800px;
     height: 800px;
