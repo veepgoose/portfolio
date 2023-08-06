@@ -1,10 +1,24 @@
 .Skills {
+    position: relative;
     background-color: #EDE768;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: calc(10px + 2vmin);
+    
 }
 
+.SkillsTitle {
+    position: absolute;
+    top: 0;
+    right: 300px;
+    
+}
+
+.ContactTitle {
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+    
+}

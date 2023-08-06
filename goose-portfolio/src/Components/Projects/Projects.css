@@ -1,9 +1,17 @@
 .Projects {
+    position: relative;
     background-color:#FFAAEA;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: calc(10px + 2vmin);
+    
+}
+
+.ProjectsTitle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
 }
