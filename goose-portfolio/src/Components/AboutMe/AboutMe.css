@@ -20,6 +20,14 @@
  
 }
 
+.AboutMeTitle {
+    position: relative;
+    height: 30%;
+    width: 30%;
+    
+
+}
+
 .AboutMeText {
     text-align: center;
     font-family: arial;
