@@ -12,6 +12,76 @@
 .ProjectsTitle {
     position: absolute;
     top: 0;
-    left: 0;
+    right: 15%;
     
+}
+
+.ProjectsHeader {
+    position:absolute;
+    top: 0;
+    right:15%;
+      
+}
+
+.EggCarton {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.EggTop, .EggBottom {
+    display: flex;
+    justify-content: center;
+}
+
+.ProjEgg1 {
+    height: 400px;
+    width: 350px;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
+
+.ProjEgg2 {
+    height: 400px;
+    width: 350px;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
+
+.ProjEgg3 {
+    height: 400px;
+    width: 350px;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
+
+.ProjEgg4 {
+    height: 400px;
+    width: 350px;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.ProjEgg5 {
+    height: 400px;
+    width: 350px;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.ProjEgg6 {
+    height: 400px;
+    width: 350px;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
