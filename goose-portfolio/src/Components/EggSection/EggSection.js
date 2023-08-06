@@ -15,13 +15,13 @@ function EggSection (props) {
     return (
       <div className="EggSection">
       <header className={props.className}>
-      <img src={UncrackedEgg} alt="UncrackedEgg" className="UncrackedEgg"/>
-      <button onClick={HatchEgg}  className="EggButton">HATCH ME</button> 
-      {isHatched && <img src={HatchingEgg} alt="HatchingEgg" className="HatchingEgg"/>
-      }
-      <AboutMe className="AboutMe"/>   
-     
-      
+        {isHatched ? (
+          <img src={HatchingEgg} alt="HatchingEgg" className="HatchingEgg"/>
+        ) : (
+          <img src={UncrackedEgg} alt="UncrackedEgg" className="UncrackedEgg"/>
+        )}
+        {!isHatched && <button onClick={HatchEgg} className="HatchButton">HATCH ME</button>}
+        {isHatched && <AboutMe className="AboutMe"/>}
       </header>
       </div>
     );

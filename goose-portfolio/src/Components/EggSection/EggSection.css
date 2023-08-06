@@ -11,22 +11,22 @@
 
   .UncrackedEgg {
     display: flex;
-    width: 450px;
-    height: 500px;
+    width: 550px;
+    height: 600px;
     justify-content: center;
     align-items: center;
-    margin-top: 90px;
+  
   }
 
   .HatchingEgg {
     display: flex;
-    width: 800px;
-    height: 800px;
+    width: 1000px;
+    height: 1000px;
     justify-content: center;
     align-items: center;
   }
 
-  .EggButton {
+  .HatchButton {
     display: flex;
     width: 150px;
     height: 50px;
@@ -37,7 +37,7 @@
     box-shadow: 0px 0px 10px 0px #83D4D4;
     cursor: pointer;
     margin-bottom: 40px;
-    margin-top: -30px;
+    margin-top: -10px;
     color: #E9F4F8;
     font-size: 20px;
     font-weight: bold;
