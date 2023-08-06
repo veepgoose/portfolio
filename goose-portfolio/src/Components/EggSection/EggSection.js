@@ -1,8 +1,8 @@
 import React,  {useState } from 'react';
 import './EggSection.css';
-import HatchingEgg from './GooseLay.gif';
+import HatchingEgg from './Egg-Cracking-Animation.gif';
 import AboutMe from '../AboutMe/AboutMe.js';
-import UncrackedEgg from './PinkEgg.png';
+import UncrackedEgg from './Pink Egg.png';
 
 
 function EggSection (props) {
