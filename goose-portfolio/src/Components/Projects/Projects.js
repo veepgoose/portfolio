@@ -7,6 +7,7 @@ import GitEggsy from './GitTipsyEgg.png';
 import MemoryEgg from './MemoryCompanionEgg.png';
 
 
+
 function Projects (props) {
     return (
         <div className="Projects">
@@ -18,7 +19,7 @@ function Projects (props) {
         Click on the eggs to learn more about them!</p>
         </div>
         <div className="EggCarton">
-            <Link to="/lotto-gen">
+            <Link to="/LottoGenEgg">
             <img src={LottoEgg} alt="LottoEgg" className="ProjEgg"/>
             </Link>
             <Link to="/git-tipsy">

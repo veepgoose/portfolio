@@ -15,7 +15,7 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="/lotto-gen" element={<LottoGenEgg />} />
+      <Route path="/lotto-gen" element={<LottoGenEgg/>} />
       <Route path="/git-tipsy" element={<TipsyEgg />} />
       <Route path="/mem-comp" element={<MemCompEgg />} />
     </Routes>
