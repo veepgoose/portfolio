@@ -18,7 +18,19 @@ function LottoProj (props) {
       <a href="https://github.com/veepgoose/GooseLotteryGen" target="_blank" rel="noreferrer">
       <img src={OctoCat} alt="OctoCat" className="OctoCat"/>
       </a>
+
+      <div className="LottoContainer">
       <img src={LottoApp} alt="LottoApp" className="LottoApp"/>
+
+      <div className="LottoText">
+      <p className="LottoText">Goose Lottery Generator
+
+I decided to make my own random lottery number generator, so that when I win the lottery I can say that I got the winning numbers by coding an app myself!
+
+Click on the Egg (yes, another Egg!) to checkout the App, and click on the GitHub OctoCat to see the repo and read more about my process!</p>
+        </div>
+      </div>
+
      
        
       </header>
