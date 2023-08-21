@@ -22,10 +22,10 @@ function Projects (props) {
             <Link to="/LottoGenEgg">
             <img src={LottoEgg} alt="LottoEgg" className="ProjEgg"/>
             </Link>
-            <Link to="/git-tipsy">
+            <Link to="/TipsyEgg">
             <img src={GitEggsy} alt="GitEggsy" className="ProjEgg"/>
             </Link>
-            <Link to="/mem-comp">
+            <Link to="/MemCompEgg">
             <img src={MemoryEgg} alt="MemoryEgg" className="ProjEgg"/>
             </Link>
         </div>

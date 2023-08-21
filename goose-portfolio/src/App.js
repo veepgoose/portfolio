@@ -15,9 +15,9 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="/lotto-gen" element={<LottoGenEgg/>} />
-      <Route path="/git-tipsy" element={<TipsyEgg />} />
-      <Route path="/mem-comp" element={<MemCompEgg />} />
+      <Route path="/LottoGenEgg" element={<LottoGenEgg/>} />
+      <Route path="/TipsyEgg" element={<TipsyEgg />} />
+      <Route path="/MemCompEgg" element={<MemCompEgg />} />
     </Routes>
     
     <div className="App">
