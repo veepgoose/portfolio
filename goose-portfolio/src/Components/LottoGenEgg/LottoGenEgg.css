@@ -1,5 +1,5 @@
 .LottoPage {
-    height: 200vh;
+    height: 150vh;
     background-color: #EDE768;
     color: hotpink
 }
@@ -68,5 +68,7 @@
     justify-content: flex-end;
     position:relative;
     align-self: flex-start;
+    font-size: 25px;
+    color: #534D56;
     
 }

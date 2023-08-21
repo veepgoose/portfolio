@@ -8,14 +8,14 @@ import Footer from './Components/Footer/Footer';
 import LottoGenEgg from './Components/LottoGenEgg/LottoGenEgg';
 import TipsyEgg from './Components/TipsyEgg/TipsyEgg';
 import MemCompEgg from './Components/MemCompEgg/MemCompEgg';
-import { Fragment } from 'react';
+
 
 
 
 function App() {
   return (
 
-  <Fragment>
+ 
     <BrowserRouter>
 
     <Routes>
@@ -48,7 +48,7 @@ function App() {
     </BrowserRouter>
    
 
-  </Fragment>
+ 
     
   );
 }

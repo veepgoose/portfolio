@@ -23,7 +23,10 @@ function LottoProj (props) {
       <img src={LottoApp} alt="LottoApp" className="LottoApp"/>
 
       <div className="LottoText">
-      <p className="LottoText">Goose Lottery Generator
+      <p className="LottoText">
+      Goose Lottery Generator 
+      <br/> 
+      <br/>
 
 I decided to make my own random lottery number generator, so that when I win the lottery I can say that I got the winning numbers by coding an app myself!
 
