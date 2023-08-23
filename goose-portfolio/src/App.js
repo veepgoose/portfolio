@@ -1,22 +1,29 @@
 import './App.css';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';  
 import Header from './Components/Header/Header';
 import EggSection from './Components/EggSection/EggSection';
 import Projects from './Components/Projects/Projects';
 import Skills from './Components/Skills/Skills';
 import Footer from './Components/Footer/Footer';
+import LottoGenEgg from './Components/LottoGenEgg/LottoGenEgg';
+import TipsyEgg from './Components/TipsyEgg/TipsyEgg';
+import MemCompEgg from './Components/MemCompEgg/MemCompEgg';
+
+
 
 
 function App() {
   return (
-    // <browserRouter>
-    //   <Switch>
-    //     <Route exact path="/" component={Projects} />
-    //     <Route exact path="/Egg/:id" component={EggDetails} />
-    //     </Switch>
-    // </browserRouter>
 
-    <div className="App">
+ 
+    <BrowserRouter>
+
+    <Routes>
+
+      <Route path="/" element={
+        <div>
+         
+          <div className="App">
       <header className="App-header">
         
         <p>
@@ -30,6 +37,19 @@ function App() {
         
       </header>
     </div>
+          
+        </div>
+        } />
+
+      <Route path="/LottoGenEgg" element={<LottoGenEgg/>} />
+      <Route path="/TipsyEgg" element={<TipsyEgg />} />
+      <Route path="/MemCompEgg" element={<MemCompEgg />} />
+    </Routes>
+    </BrowserRouter>
+   
+
+ 
+    
   );
 }
 

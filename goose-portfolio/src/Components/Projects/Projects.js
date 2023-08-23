@@ -1,9 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Projects.css';
 import ProjectsTitle from './Projects.png';
 import LottoEgg from './LottoGenEgg.png';
 import GitEggsy from './GitTipsyEgg.png';
 import MemoryEgg from './MemoryCompanionEgg.png';
+
 
 
 function Projects (props) {
@@ -17,9 +19,15 @@ function Projects (props) {
         Click on the eggs to learn more about them!</p>
         </div>
         <div className="EggCarton">
+            <Link to="/LottoGenEgg">
             <img src={LottoEgg} alt="LottoEgg" className="ProjEgg"/>
+            </Link>
+            <Link to="/TipsyEgg">
             <img src={GitEggsy} alt="GitEggsy" className="ProjEgg"/>
+            </Link>
+            <Link to="/MemCompEgg">
             <img src={MemoryEgg} alt="MemoryEgg" className="ProjEgg"/>
+            </Link>
         </div>
         </header>
         </div>
