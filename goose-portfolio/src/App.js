@@ -8,6 +8,7 @@ import Footer from './Components/Footer/Footer';
 import LottoGenEgg from './Components/LottoGenEgg/LottoGenEgg';
 import TipsyEgg from './Components/TipsyEgg/TipsyEgg';
 import MemCompEgg from './Components/MemCompEgg/MemCompEgg';
+import Contact from './Components/Contact/Contact';
 
 
 
@@ -31,6 +32,7 @@ function App() {
          <EggSection className="EggSection"/>
          <Projects className="Projects"/>
          <Skills className="Skills"/>
+         <Contact className="Contact"/>
          <Footer className="Footer"/>
 
         </p>

@@ -1,5 +1,5 @@
-import React from 'react';
-.Skills {
+
+.Contact {
     position: relative;
     background-color: #EDE768;
     min-height: 100vh;
@@ -11,10 +11,10 @@ import React from 'react';
     
 }
 
-
 .ContactTitle {
     position: absolute;
-    bottom: 0;
-    left: 100px;
+    top: 0;
+    right: 100px;
+    height:200px;
     
 }

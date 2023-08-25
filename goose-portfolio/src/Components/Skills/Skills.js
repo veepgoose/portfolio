@@ -49,6 +49,7 @@ import SkillsTitle from './Skills.png'
       </div>
      
     </section>
+    
   )
 }
 
