@@ -74,7 +74,7 @@
     width: 120px;
     height: 130px;
     background: #FB6FC6;
-    box-shadow: 0 2rem 2rem#FFAAEA;
+    box-shadow: 0 1.25rem 2rem#FFAAEA;
     position: relative;
     transition: all 0.15s ease-in-out;
     color: #534D56; 
