@@ -13,6 +13,7 @@ import postman from '../Assets/postman.svg';
 import ps from '../Assets/ps.svg';
 import react from '../Assets/reactjs.svg';
 import vs from '../Assets/vs.svg';
+import github from '../Assets/github.svg';
 
 
 export const tech = [
@@ -32,6 +33,13 @@ export const tech = [
     name: 'React',
     icon: react
   },
+
+  {
+    name: 'GitHub',
+    icon: github  
+
+  },
+  
   {
     name: 'Node.js',
     icon: node
