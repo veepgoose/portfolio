@@ -1,5 +1,5 @@
-import instagram from '../Assets/instagram.svg';
-import linkedin from '../Assets/linkedin.svg';
+import instagram from '../Assets/instagram.png';
+import linkedin from '../Assets/linkedin.png';
 import email from '../Assets/email.svg';
 import coffee from '../Assets/coffee.svg';
 import github from '../Assets/github.svg';
