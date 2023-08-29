@@ -16,6 +16,7 @@ import vs from '../Assets/vs.svg';
 import github from '../Assets/github.svg';
 
 
+
 export const tech = [
   {
     name: 'HTML 5',
@@ -91,6 +92,8 @@ export const tech = [
     name: 'VS Code',
     icon: vs
   },
+
+ 
 ]
 
 export default tech;
