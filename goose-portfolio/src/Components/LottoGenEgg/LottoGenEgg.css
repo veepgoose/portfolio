@@ -1,5 +1,5 @@
 .LottoPage {
-    height: 150vh;
+    height: 165vh;
     background-color: #EDE768;
     color: hotpink
 }
@@ -71,4 +71,14 @@
     font-size: 25px;
     color: #534D56;
     
+}
+
+.HomeEgg1 {
+   display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position:relative;
+    
+
+  
 }

@@ -4,7 +4,7 @@ import MemTitle from './MemoryCompTitle.png';
 import MemOctoCat from './OctoCat.png';
 import MemAppEgg from './MemoryCompanionEgg.png';
 import MemApp from './Memcomp.JPG';
-
+import EggHome from '../HomeEgg/HomeEgg.js';
 
 
 function MemProj (props) {
@@ -33,7 +33,7 @@ I decided to make my own random lottery number generator, so that when I win the
 Click on the Egg (yes, another Egg!) to checkout the App, and click on the GitHub OctoCat to see the repo and read more about my process!</p>
       </div>
     </div>
-
+    <EggHome className="EggHome"/>
    
      
    </header>

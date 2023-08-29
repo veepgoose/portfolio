@@ -4,6 +4,7 @@ import TipsyTitle from './GitTipsyTitle1.png';
 import TipsyOctoCat from './OctoCat.png';
 import TipsyAppEgg from './GitTipsyEgg.png';
 import TipsyApp from './Tipsy++MainPage.png';
+import EggHome from '../HomeEgg/HomeEgg.js';
 
 
 
@@ -33,7 +34,7 @@ I decided to make my own random lottery number generator, so that when I win the
 Click on the Egg (yes, another Egg!) to checkout the App, and click on the GitHub OctoCat to see the repo and read more about my process!</p>
       </div>
     </div>
-
+    <EggHome className="EggHome"/>
    
      
     </header>

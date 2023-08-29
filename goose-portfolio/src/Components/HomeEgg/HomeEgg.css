@@ -1,0 +1,22 @@
+
+.HomeEgg {
+    width: 120px;
+    height: 140px;
+    margin: 0 auto;
+    margin-bottom: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position:relative;
+  
+}
+
+.HomeEgg:hover {
+    cursor: pointer;
+}
+
+.HomeEgg:active {
+    /* background-color: #EDE768; */
+    transform: scale(1.1);
+}
+

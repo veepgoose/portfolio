@@ -11,7 +11,6 @@ import EggHome from '../HomeEgg/HomeEgg.js';
 function LottoProj (props) {
     return (
       <div className="LottoPage">
-      <EggHome className="EggHome"/>
       <header className={props.className}>
       <img src={LottoTitle} alt="LottoTitle" className="LottoTitle"/>
       <a href="https://gooselottoapp.vercel.app/" target="_blank" rel="noreferrer">
@@ -35,7 +34,7 @@ I decided to make my own random lottery number generator, so that when I win the
 Click on the Egg (yes, another Egg!) to checkout the App, and click on the GitHub OctoCat to see the repo and read more about my process!</p>
         </div>
       </div>
-
+      <EggHome className="EggHome"/>
      
        
       </header>
