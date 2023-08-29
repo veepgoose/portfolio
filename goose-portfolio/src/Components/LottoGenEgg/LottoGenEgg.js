@@ -4,12 +4,14 @@ import LottoTitle from './LotteryNumberGenTitle.png';
 import OctoCat from './OctoCat.png';
 import LottoAppEgg from './LottoGenEgg.png';
 import LottoApp from './Lotto.JPG';
+import EggHome from '../HomeEgg/HomeEgg.js';
 
 
 
 function LottoProj (props) {
     return (
       <div className="LottoPage">
+      <EggHome className="EggHome"/>
       <header className={props.className}>
       <img src={LottoTitle} alt="LottoTitle" className="LottoTitle"/>
       <a href="https://gooselottoapp.vercel.app/" target="_blank" rel="noreferrer">
