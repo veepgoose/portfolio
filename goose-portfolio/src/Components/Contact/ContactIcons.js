@@ -2,6 +2,7 @@ import instagram from '../Assets/instagram.svg';
 import linkedin from '../Assets/linkedin.svg';
 import email from '../Assets/email.svg';
 import coffee from '../Assets/coffee.svg';
+import github from '../Assets/github.svg';
 
 export const contact = [
    
@@ -10,6 +11,12 @@ export const contact = [
         name: 'LinkedIn',
         icon: linkedin,
         link: 'https://www.linkedin.com/in/vplatt/'
+    },
+
+    {
+        name: 'GitHub',
+        icon: github,
+        link: 'https://github.com/veepgoose'
     },
 
     {   
