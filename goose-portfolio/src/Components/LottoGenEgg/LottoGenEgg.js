@@ -25,12 +25,17 @@ function LottoProj (props) {
 
       <div className="LottoText">
       <p className="LottoText">
-      Goose Lottery Generator 
+      THE HIGH GOOSE LOTTERY NUMBER GENERATOR
       <br/> 
       <br/>
 
-I decided to make my own random lottery number generator, so that when I win the lottery I can say that I got the winning numbers by coding an app myself!
 
+      Introducing the "High Goose Lottery Number Generator" app! Created using ReactJS, this playful and tongue-in-cheek application lets users enter their name and make a couple of whimsical commitments before submitting to The High Goose. Upon doing so, the app generates six random lottery numbers.
+      <br />
+      <br />
+       I revisited this project after completing a full-stack development coding bootcamp to showcase my improved skills. Originally a basic prompt/alert app, I transformed it into a React-powered gem. Its primary purpose is to test my React prowess, but who knows, one day I might just win the lottery with my very own High Goose-generated numbers!
+      <br/>
+      <br/>
 Click on the Egg (yes, another Egg!) to checkout the App, and click on the GitHub OctoCat to see the repo and read more about my process!</p>
         </div>
       </div>

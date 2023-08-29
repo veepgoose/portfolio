@@ -29,7 +29,15 @@ function TipsyProj (props) {
     <br/> 
     <br/>
 
-I decided to make my own random lottery number generator, so that when I win the lottery I can say that I got the winning numbers by coding an app myself!
+Git Tipsy++ is a full-stack React app, born out of post-graduation enthusiasm and co-created with fellow School Of Code bootcampers Tom Webb and Sam Baldwin.
+<br />
+<br />
+The idea for this app was born out of a desire to celebrate our graduation from the School of Code bootcamp in a fun and unique way. Back in July 2023 School Of Code Cohort 14 were the first Cohort to be invited to Microsoft in Reading for our graduation ceremony. We wanted to create an app that would allow us to continue the celebrations after the ceremony, and so Git Tipsy++ was born! 
+<br />
+<br />
+Originally, I intended to create a Google Form to send out to the 120 bootcampers due to attend, in order to ascertain how many people would be interested in attending a post-ceremony celebration. However, I quickly realised that this would be a great opportunity to create a full-stack app, and so I enlisted the help of fellow bootcampers Tom and Sam to help me bring the idea to life.
+<br />
+<br />
 
 Click on the Egg (yes, another Egg!) to checkout the App, and click on the GitHub OctoCat to see the repo and read more about my process!</p>
       </div>
