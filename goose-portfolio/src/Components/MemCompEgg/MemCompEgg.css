@@ -42,11 +42,11 @@
   
 }
 
-.MemEgg:hover {
+.MemAppEgg:hover {
     cursor: pointer;
 }
 
-.MemEgg:active {
+.MemAppEgg:active {
     /* background-color: #EDE768; */
     transform: scale(1.1);
 }

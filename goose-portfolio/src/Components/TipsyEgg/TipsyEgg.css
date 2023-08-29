@@ -24,11 +24,11 @@
     
 }
 
-.OctoCat:hover {
+.TipsyOctoCat:hover {
     cursor: pointer;
 }
 
-.OctoCat:active {
+.TipsyOctoCat:active {
     /* background-color: #EDE768; */
     transform: scale(1.1);
 }
@@ -42,11 +42,11 @@
   
 }
 
-.TipsyEgg:hover {
+.TipsyAppEgg:hover {
     cursor: pointer;
 }
 
-.TipsyEgg:active {
+.TipsyAppEgg:active {
     /* background-color: #EDE768; */
     transform: scale(1.1);
 }
