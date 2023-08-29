@@ -28,8 +28,12 @@ function MemProj (props) {
     <br/> 
     <br/>
 
-I decided to make my own random lottery number generator, so that when I win the lottery I can say that I got the winning numbers by coding an app myself!
-
+    Memory Companion is the result of a 5-week group project, created by myself and 5 fellow School Of Code bootcampers. We were tasked with creating a full-stack app that would solve a real world problem.
+    <br />
+    <br />
+    Memory Companion is a user-friendly application designed to support individuals suffering from dementia and other memory-related conditions. Our app aims to provide a centralised platform for storing memories, visual and audio prompts, and daily activity reminders, tailored to each individual's objectives. By facilitating social care and improving the overall quality of life for those affected by memory loss, our goal is to empower users and enhance their independence.
+    <br />
+    <br />
 Click on the Egg (yes, another Egg!) to checkout the App, and click on the GitHub OctoCat to see the repo and read more about my process!</p>
       </div>
     </div>
