@@ -8,25 +8,23 @@ function AboutMe (props) {
       <div className="AboutMe">
       <img src={AboutMeTitle} alt="About Me" className="AboutMeTitle"/>
       <div className="AboutMeText">
-      <p> 👋 Hey there, I'm Victoria!
+      <p> 👋 Welcome to my corner of the internet! I'm Victoria, also known as Goose, a recently qualified Fullstack Software Developer.
+      <br/>
+<br/>
+I've transitioned from a successful wine industry career to the world of tech, driven by a passion for creating innovative solutions. With a background in design, I relish crafting user experiences and bringing ideas to life through code. You might wonder why I swapped sipping Chardonnay in picturesque vineyards for code at my trusty PC? Well, I've always been passionate about *creating* things!
+<br/>
+<br/>
+I'm the kind of person who sees problems as puzzles, and I love inventing imaginative (and often whimsical) solutions. With an entrepreneurial spirit and a knack for steering businesses toward innovation, I couldn't resist the allure of the tech world. I found my true calling in solving real-world problems through apps, guiding ideas from conception to fruition.
+<br/>
+<br/>
+With a foundation in design, I adore crafting user-centric experiences. It's a thrilling journey, watching a seedling of an idea evolve into something extraordinary. From ideation and wireframing to breathing life into designs with the power of code – every step is a joy.
+<br/>
+<br/>
+Explore my portfolio to discover past and current projects, along with deployed apps and GitHub repositories. If you're interested in collaborating, let's connect and design the perfect solution together!
+<br/>
+<br/>
 
-You know, life's a lot like a basket of colorful Easter eggs, and I'm here to crack the code to the sweetest ones! 🥚🌈
-<br />
-<br />
-By day, I'm a dedicated Full Stack Developer, fresh out of The School of Code Bootcamp in Birmingham. But, my journey here has been a bit...eggstraordinary. 🐣
-<br />
-With a background in business management, I once ruled the wine world. 🍷🍇 Managing teams, navigating the wine business, and even dipping my toes into E-commerce, I've seen it all. I've got a knack for turning challenges sunny side up and creating delicious solutions.
-<br />
-<br />
-Now, I'm on a quest to hatch imaginative app ideas into reality. Coding isn't just a job; it's a passion. And if you're in search of someone who's as passionate about coding as they are about perfecting a soufflé, well, you've found me! 🍳
-<br />
-I'm on the lookout for a company that's as forward-thinking as a space-age rocket ship and values creativity like it's the last chocolate egg on Easter morning. If that's you, let's scramble up some fresh ideas together! 🚀
-<br />
-<br />
-When I'm not coding, you can find me exploring the great outdoors, folding Origami that's more complex than a Rubik's Cube, and striking yoga poses that make pretzels jealous. I live for challenges and believe in constantly cracking the shell of new experiences.
-<br />
-<br />
-Thanks for dropping by my pixelated corner of the web! Let's connect and see where our paths might cross—whether it's discussing code or sharing egg-citing stories. 
+<h3> And if you're wondering about the eggs, they symbolise the magic of creation, the birth of ideas, and hidden potential. 🥚✨</h3>
 
 
 
