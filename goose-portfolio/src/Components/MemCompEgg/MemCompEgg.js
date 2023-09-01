@@ -24,9 +24,9 @@ function MemProj (props) {
 
     <div className="MemText">
     <p className="MemText">
-    MEMORY COMPANION
+    <h3>MEMORY COMPANION</h3>
     <br/> 
-    <br/>
+    
 
     Memory Companion is the result of a 5-week group project, created by myself and 5 fellow School Of Code bootcampers. We were tasked with creating a full-stack app that would solve a real world problem.
     <br />

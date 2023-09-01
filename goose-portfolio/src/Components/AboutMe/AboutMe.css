@@ -27,8 +27,9 @@
 .AboutMeText {
     text-align: center;
     font-family: arial;
-    font-size: 20px;
+    font-size: 17.5px;
     padding-left: 40px;
     padding-right: 40px;
     color: #534D56;
+    font-family: 'Fira Code', monospace;
 }

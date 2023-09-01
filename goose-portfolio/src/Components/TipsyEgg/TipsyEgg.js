@@ -25,7 +25,7 @@ function TipsyProj (props) {
 
     <div className="TipsyText">
     <p className="TipsyText">
-    GIT TIPSY++ 
+    <h3>GIT TIPSY++ </h3>
     <br/> 
     <br/>
 

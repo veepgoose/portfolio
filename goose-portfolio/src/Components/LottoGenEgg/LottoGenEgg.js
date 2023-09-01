@@ -25,7 +25,7 @@ function LottoProj (props) {
 
       <div className="LottoText">
       <p className="LottoText">
-      THE HIGH GOOSE LOTTERY NUMBER GENERATOR
+      <h3>THE HIGH GOOSE LOTTERY NUMBER GENERATOR</h3>
       <br/> 
       <br/>
 

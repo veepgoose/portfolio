@@ -10,17 +10,19 @@
 }
 
 .ProjectsTitle {
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
     top: 0;
-    right: 5%;
     
 }
 
 .ProjectsHeader {
     position:absolute;
     top: 0;
-    right:5%;
-      
+        
 }
 
 .ProjectsText {
@@ -31,16 +33,9 @@
     justify-content: center;
     text-align: center;
     top: 0;
-    right: 5%;
     font-size: 20px;
     font-weight: bold;
-    font-family: 'Roboto', sans-serif;
-    text-align: left;
-    width: 100%;
-    margin-top: 40%;
-    margin-bottom: 10%;
-    margin-left: -63%;
-    margin-right: 0%;
+    text-align: center;
     color: #534D56;
     line-height: 1.5;
     letter-spacing: 1px;
