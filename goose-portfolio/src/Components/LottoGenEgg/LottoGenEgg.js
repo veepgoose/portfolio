@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './LottoGenEgg.css';
 import LottoTitle from './LotteryNumberGenTitle.png'; 
 import OctoCat from './OctoCat.png';
@@ -9,6 +9,8 @@ import EggHome from '../HomeEgg/HomeEgg.js';
 
 
 function LottoProj (props) {
+  
+    
     return (
       <div className="LottoPage">
       <header className={props.className}>
