@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './LottoGenEgg.css';
 import LottoTitle from './LotteryNumberGenTitle.png'; 
 import OctoCat from './OctoCat.png';

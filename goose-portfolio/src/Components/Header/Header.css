@@ -2,10 +2,10 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    /* width: 200%;
-    height: 200%;
+    width: 100%;
+    height: 102vh;
     margin-left: -1%;
-    margin-bottom: 0%; */
+    margin-bottom: 0%;
 }
 
 .ProfileImg {
