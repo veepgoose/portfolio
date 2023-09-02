@@ -83,3 +83,21 @@
 
   
 }
+
+/* Media query for screens with a maximum width of 768px (mobile) */
+@media (max-width: 768px) {
+    .LottoApp {
+        width: 100%; /* Full width for mobile screens */
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .LottoEgg,
+    .OctoCat {
+        width: 100%; /* Full width for mobile screens */
+        margin: 0;
+    }
+
+    /* Add more responsive styles as needed for smaller screens */
+}
+
