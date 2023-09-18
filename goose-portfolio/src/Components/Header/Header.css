@@ -33,23 +33,32 @@
 
 @media only screen and (max-width: 390px) {
     .Header {
-        width: 350px;
-        height: 300px;
+        width: 200px;
+        height: 675px;
        
+    }
+
+    .HeaderTitle {
+        width: 200%;
+        height: 60%;
+        transform: translate(-1%, 15%);
     }
     
     .ProfileImg {
         display: flex;
-        width: 150px;
-        height: 400px;
+        width: 160%;
+        height: 400%;
         border-radius: 0%;
         margin-top: 3%;
+        transform: translate(19%, -7%);
     }
     
     .Goose {
         position: absolute;
-        top: 790px;
-        left: 20;
+        transform: translate(-40%, 430%);
+        width: 400px;
+        height: 70px;
+
         
     }
 }
