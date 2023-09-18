@@ -27,18 +27,18 @@ function App() {
          
           <div className="App">
       <header className="App-header">
-        
-        <p>
-         <Header className="Header"/>
+        <Header className="Header"/>
+      </header>
+      <body>
          <EggSection className="EggSection"/>
          <Projects className="Projects"/>
          <Skills className="Skills"/>
          <Contact className="Contact"/>
          <Footer className="Footer"/>
 
-        </p>
+      </body>
         
-      </header>
+      
     </div>
           
         </div>
