@@ -7,7 +7,7 @@ body {
   
 }
 
-/* .App {
+.App {
   position: absolute;
   text-align: center;
   background-color: #EDE768;
@@ -15,11 +15,11 @@ body {
   width: 100vw;
   
   
-} */
+}
 
 
 
-/* .App-header {
+.App-header {
   background-color: #EDE768;
   max-height: 590vh;
   min-width: 99vw;
@@ -29,7 +29,7 @@ body {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #EDE768;
-} */
+}
 
 
 @media only screen and (min-width: 1280px) and (max-width: 1600px) {
@@ -42,6 +42,29 @@ body {
     padding: 0;
     
   }
+
+.App {
+  position: absolute;
+  text-align: center;
+  background-color: #EDE768;
+  height: 100vh;
+  width: 100vw;
+  
+  
+}
+
+
+
+.App-header {
+  background-color: #EDE768;
+  max-height: 590vh;
+  min-width: 99vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #EDE768;
 }
 
 .Header {
@@ -71,3 +94,61 @@ body {
 
 
 
+@media only screen and (max-width: 390px) {
+  body {
+    background-color: #EDE768;
+    height: 100vh;
+    width: 10%;
+    
+    
+  }
+}
+
+.App {
+  position: absolute;
+  text-align: center;
+  background-color: #EDE768;
+  
+  
+  
+}
+
+
+
+.App-header {
+  background-color: #EDE768;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #EDE768;
+}
+
+/* .Header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 50px;
+  height: 50px;
+  margin-left: -1%;
+  margin-bottom: 0%;
+}
+
+.ProfileImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 0%;
+  margin-top: 3%;
+ 
+}
+
+.Goose {
+  position: absolute;
+  top: 790px;
+  left: 20;
+  
+} */
+
+}

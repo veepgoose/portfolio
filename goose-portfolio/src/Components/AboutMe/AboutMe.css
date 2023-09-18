@@ -33,3 +33,44 @@
     color: #534D56;
     font-family: 'Fira Code', monospace;
 }
+
+@media only screen and (max-width:390px) {
+    
+
+.AboutMe {
+    width: 90%;
+    height:100%;
+    margin: 0 auto;
+    margin-top: 240px;
+    margin-bottom: -150px;
+    position: relative;
+    top: 50%;
+    left: 41.5%;
+    transform: translate(-44%, -20%);
+    border:10px solid #FB6FC6;
+    border-radius: 5px;
+    background-color: #EDE768;
+    box-shadow: 0 4px 8px 0 #534D56;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ 
+}
+
+.AboutMeTitle {
+    position: relative;
+    height: 40%;
+    width: 80%;
+    
+
+}
+
+.AboutMeText {
+    text-align: center;
+    font-family: arial;
+    font-size: 0.8em;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #534D56;
+    font-family: 'Fira Code', monospace;
+}
+}
