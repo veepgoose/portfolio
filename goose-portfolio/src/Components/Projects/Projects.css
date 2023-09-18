@@ -73,12 +73,13 @@
     .Projects {
         position: relative;
         background-color:#FFAAEA;
-        min-height: 180%;
+        min-height: 120%;
         max-width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding-bottom: 20px;
         
     }
     
@@ -121,12 +122,13 @@
     }
     
     .ProjEgg {
-        height: 300px;
-        width: 250px;
+        height: 175px;
+        width: 150px;
         margin-right: 70px;
         margin-left: 70px;
         margin-top: 50px;
         margin-bottom: -30px;
+        
       }
     
       .ProjEgg:hover {

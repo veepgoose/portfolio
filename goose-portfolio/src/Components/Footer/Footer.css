@@ -25,3 +25,38 @@
    
 
 }
+
+@media only screen and (max-width: 390px) {
+    .Footer {
+        background-color: #83D4D4;
+        max-height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        
+        
+        
+    
+    }
+    
+    .FooterImg {
+        position: absolute;
+        left: 40px;
+        width:80%;
+        height: 15%;
+        
+    
+    }
+    
+    .GooseFooter {
+       position: relative;
+       width: 100%;
+       height: 10%;
+       
+      
+       
+    
+    }
+}
