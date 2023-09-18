@@ -125,3 +125,139 @@
     }
   
   }
+
+  @media only screen and (max-width: 390px) {
+    .Contact {
+      position: relative;
+      background-color: #EDE768;
+      min-height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #83D4D4;
+      padding-bottom: 30px;
+      
+  }
+  
+  .ContactTitle {
+     height: 100%;
+     width: 90%;
+     padding-bottom: 30px;
+      
+  }
+  
+  #contact {
+     
+      padding-top: 4rem;
+      position: relative;
+    }
+    
+    .contact-container {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      /* top: 350px; */
+      margin: 0 20%;
+      padding-bottom: 20rem;
+      bottom: 0;
+  
+    }
+    
+   
+    .contact-row {
+      position: relative;
+    }
+    
+    .contact-content {
+     
+       display: flex;
+      
+      
+    }
+    
+    .contact-slider {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      height: 12rem;
+      gap: 2rem;
+      padding: 0 2rem;
+     
+    
+    }
+    
+  
+    
+    .contact-slider::-webkit-scrollbar {
+      height: 2rem;
+     
+    }
+    
+    .contact-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 3rem;
+      width: 60px;
+      height: 60px;
+      background: #FB6FC6;
+      box-shadow: 0 1.25rem 2rem#FFAAEA;
+      position: relative;
+      transition: all 0.15s ease-in-out;
+      color: #534D56; 
+    }
+    
+    .contact-card:hover {
+      scale: 0.85;
+      box-shadow: 0 2rem 3rem #83D4D4;
+    }
+    
+    .contact-card img {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+      align-items: center;
+      width: 40px;
+      z-index: 1;
+      transition: all 0.15s ease-in-out;
+    }
+    
+    .contact-card:hover img {
+      scale: 2;
+      transform: translateY(-1.5rem);
+    }
+    
+    .contact-card .contact-name {
+      position: absolute;
+      font-size: 1em;
+      opacity: 0;
+      z-index: 0;
+      transition: all 0.15s ease-in;
+    }
+    
+    .contact-card:hover .contact-name {
+      display: block;
+      transform: translateY(4rem);
+      opacity: 1;
+    }
+    
+  
+    
+   
+    
+    @media screen and (max-width: 1023px) {
+    
+    }
+    
+    @media screen and (max-width: 599px) {
+    
+      .contact-container {
+        margin: -40% 2%;
+      
+      }
+    
+    }
+  }
