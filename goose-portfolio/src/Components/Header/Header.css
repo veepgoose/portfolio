@@ -78,16 +78,21 @@
     
     .ProfileImg {
         display: flex;
-        width: 400px;
-        height: 650px;
+        width: 50%;
+        max-width: 400px;
         border-radius: 0%;
-        transform: translate(119%, -44.7%);
+        /* transform: translate(119%, -44.7%); */
+        margin-top: -3.7%;
+        margin-right: -10%;
         
     }
     
     .Goose {
         position: absolute;
-        transform: translate(-20%, 165%)
+        /* transform: translate(-20%, 165%) */
+        bottom: 53%;
+        left: 20%;
+        /* transform: translate(-50%, -50%); */
         
     }
 }
