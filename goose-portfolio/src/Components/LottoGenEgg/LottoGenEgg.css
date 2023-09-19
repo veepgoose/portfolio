@@ -85,20 +85,90 @@
   
 }
 
-/* Media query for screens with a maximum width of 768px (mobile) */
-@media (max-width: 768px) {
-    .LottoApp {
-        width: 100%; /* Full width for mobile screens */
-        margin-left: 0;
-        margin-right: 0;
-    }
+@media only screen and (min-width: 1280px) and (max-width:1600px) {
 
-    .LottoEgg,
+    .LottoPage {
+        height: 100%;
+        background-color: #EDE768;
+        color: hotpink
+    }
+    
+    .LottoTitle {
+        margin-bottom: 20px;
+        width: 80%;
+       
+        
+    }
+    
     .OctoCat {
-        width: 100%; /* Full width for mobile screens */
-        margin: 0;
+        width: 145px;
+        height: 125px;
+        margin: 0 auto;
+        margin-bottom: 0px;
+    
+        
     }
-
-    /* Add more responsive styles as needed for smaller screens */
+    
+    .OctoCat:hover {
+        cursor: pointer;
+    }
+    
+    .OctoCat:active {
+        /* background-color: #EDE768; */
+        transform: scale(1.1);
+    }
+    
+    .LottoEgg {
+        width: 120px;
+        height: 130px;
+        margin: 0 auto;
+        margin-bottom: 0px;
+        margin-left: -17%;
+      
+    }
+    
+    .LottoEgg:hover {
+        cursor: pointer;
+    }
+    
+    .LottoEgg:active {
+        /* background-color: #EDE768; */
+        transform: scale(1.1);
+    }
+    
+    .LottoApp {
+        width: 50%;
+        height: 50%;
+        margin-left: 60px;
+        margin-right: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius:30px;
+    }
+    
+    .LottoContainer {
+        display: flex;
+        align-items: flex-start;
+        
+    }
+    .LottoText {
+        display:flex;
+        flex:0.9;
+        flex-direction: column;
+        justify-content: flex-end;
+        position:relative;
+        align-self: flex-start;
+        font-size: 1.05em;
+        color: #534D56;
+        
+    }
+    
+    .HomeEgg1 {
+       display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        position:relative;
+        margin-bottom:20px;
 }
 
+}
