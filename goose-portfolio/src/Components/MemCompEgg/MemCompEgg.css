@@ -77,3 +77,78 @@
     color: #534D56;
     
 }
+
+@media only screen and (min-width: 1280px) and (max-width: 1600px) {
+    .MemPage {
+        height: 135vh;
+        background-color: #EDE768;
+        color: hotpink
+    }
+    
+    .MemTitle {
+        width: 80%;
+        margin-top: 0px;
+        margin-bottom: -10px;
+       
+        
+    }
+    
+    .MemOctoCat {
+        width: 145px;
+        height: 125px;
+        margin-bottom: 0px;
+        
+    }
+    
+    .MemOctoCat:hover {
+        cursor: pointer;
+    }
+    
+    .MemOctoCat:active {
+        /* background-color: #EDE768; */
+        transform: scale(1.1);
+    }
+    
+    .MemAppEgg {
+        width: 120px;
+        height: 130px;
+        margin-bottom: 0px;
+        margin-left: -250px;
+      
+    }
+    
+    .MemAppEgg:hover {
+        cursor: pointer;
+    }
+    
+    .MemAppEgg:active {
+        /* background-color: #EDE768; */
+        transform: scale(1.1);
+    }
+    
+    .MemApp {
+        width: 60%;
+        margin-left: 50px;
+        margin-right: 20px;
+        margin-bottom: 30px;
+        margin-top: 40px;
+        border-radius:30px;
+    }
+    
+    .MemContainer {
+        display: flex;
+        align-items: flex-start;
+        
+    }
+    .MemText {
+        display:flex;
+        flex:0.9;
+        flex-direction: column;
+        justify-content: flex-end;
+        position:relative;
+        align-self: flex-start;
+        font-size: 1.05em;
+        color: #534D56;
+        
+    }
+}
