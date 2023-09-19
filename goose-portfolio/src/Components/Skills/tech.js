@@ -6,7 +6,7 @@ import html from '../Assets/html.svg';
 import jest from '../Assets/jest.svg';
 import javascript from '../Assets/js.svg';
 import mongodb from '../Assets/mongodb.svg';
-import node from '../Assets/nodejs.svg';
+import node from '../Assets/Node.png';
 import npm from '../Assets/npm.svg';
 import postfresql from '../Assets/postfresql.svg';
 import postman from '../Assets/postman.svg';
@@ -14,10 +14,44 @@ import ps from '../Assets/ps.svg';
 import react from '../Assets/reactjs.svg';
 import vs from '../Assets/vs.svg';
 import github from '../Assets/github.svg';
+import Premiere from '../Assets/PremierePro.png';
+import Expo from '../Assets/Expo.png';
+import ReactNative from '../Assets/ReactNative.png';
+import Ruby from '../Assets/Ruby.png';
 
 
 
 export const tech = [
+  {
+    name: 'JavaScript',
+    icon: javascript
+  },
+
+  {
+    name: 'React',
+    icon: react
+  },
+
+  {
+    name: 'React Native',
+    icon: ReactNative
+  },
+
+  {
+    name: 'Ruby On Rails',
+    icon: Ruby
+  },
+ 
+  {
+    name: 'Expo',
+    icon: Expo
+  },
+
+  {
+    name: 'Node.js',
+    icon: node
+  },
+  
   {
     name: 'HTML 5',
     icon: html
@@ -26,26 +60,7 @@ export const tech = [
     name: 'CSS 3',
     icon: css
   },
-  {
-    name: 'JavaScript',
-    icon: javascript
-  },
-  {
-    name: 'React',
-    icon: react
-  },
-
-  {
-    name: 'GitHub',
-    icon: github  
-
-  },
-  
-  {
-    name: 'Node.js',
-    icon: node
-  },
-  
+ 
   {
     name: 'MongoDB',
     icon: mongodb
@@ -54,20 +69,7 @@ export const tech = [
     name: 'Elephant SQL',
     icon: postfresql
   },
-  {
-    name: 'Git',
-    icon: git
-  },
- 
-  {
-    name: 'VS Code',
-    icon: vs
-  },
-  {
-    name: 'Figma',
-    icon: figma
-  },
- 
+
   {
     name: 'Jest',
     icon: jest
@@ -80,17 +82,38 @@ export const tech = [
     name: 'Postman',
     icon: postman
   },
-  {
-    name: 'Photoshop',
-    icon: ps
-  },
+
   {
     name: 'Babel',
     icon: babel
   },
   {
+    name: 'Git',
+    icon: git
+  },
+  {
+    name: 'GitHub',
+    icon: github  
+
+  },
+ 
+  {
     name: 'VS Code',
     icon: vs
+  },
+  {
+    name: 'Figma',
+    icon: figma
+  },
+ 
+ {
+    name: 'Photoshop',
+    icon: ps
+  },
+
+  {
+    name: 'Adobe Premiere Pro',
+    icon: Premiere
   },
 
  
