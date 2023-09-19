@@ -18,8 +18,8 @@
     height: 200px;
     margin-top: -250px;
     margin-bottom: 75px;
-    margin-left: 50px;
-    margin-right: 110px;
+    margin-left: 30px;
+    margin-right: 0px;
     
     
 }
@@ -37,9 +37,9 @@
     width: 180px;
     height: 200px;
     margin-bottom: 75px;
-    margin-left: 1250px;
+    margin-left: 10px;
     margin-right: -50px;
-    margin-top: -250px;
+    margin-top: -50px;
    
   
 }
@@ -70,7 +70,7 @@
 }
 .LottoText {
     display:flex;
-    flex:1;
+    flex:0.9;
     flex-direction: column;
     justify-content: flex-end;
     position:relative;
