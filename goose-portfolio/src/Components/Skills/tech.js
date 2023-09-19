@@ -112,7 +112,7 @@ export const tech = [
   },
 
   {
-    name: 'Adobe Premiere Pro',
+    name: 'Premiere Pro',
     icon: Premiere
   },
 
