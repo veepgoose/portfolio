@@ -18,6 +18,7 @@
     height: 200px;
     margin: 0 auto;
     margin-bottom: 75px;
+    transform: translate(-80%, 0%)
     
 }
 
@@ -35,6 +36,8 @@
     height: 200px;
     margin: 0 auto;
     margin-bottom: 75px;
+    transform: translate(-100%, 0%);
+   
   
 }
 
@@ -171,4 +174,92 @@
         margin-bottom:20px;
 }
 
+
+
 }
+
+@media only screen and (max-width: 390px) {
+    .LottoPage {
+        /* height: 100vh; */
+        background-color: #EDE768;
+        color: hotpink
+    }
+    
+    .LottoTitle {
+        width: 100%;
+        height: 60%;
+        transform: translate(-1%, 15%);
+    
+       
+        
+    }
+    
+    .OctoCat {
+        width: 100px;
+        height: 90px;
+        margin: 0 auto;
+        margin-bottom: 75px;
+        
+    }
+    
+    .OctoCat:hover {
+        cursor: pointer;
+    }
+    
+    .OctoCat:active {
+        /* background-color: #EDE768; */
+        transform: scale(1.1);
+    }
+    
+    .LottoEgg {
+        width: 80px;
+        height: 95px;
+        margin: 0 auto;
+        margin-bottom: 75px;
+        margin-left: 25%;
+      
+    }
+    
+    .LottoEgg:hover {
+        cursor: pointer;
+    }
+    
+    .LottoEgg:active {
+        /* background-color: #EDE768; */
+        transform: scale(1.1);
+    }
+    
+    .LottoApp {
+        width: 90%;
+        height: auto;
+        margin-left: 17px;
+        margin-top: -30px;
+        
+      
+    }
+    
+    .LottoContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+    }
+    .LottoText {
+        display:flex;
+        flex:1;
+        flex-direction: column;
+        position:relative;
+        align-self: flex-start;
+        font-size: 1em;
+        color: #534D56;
+        
+    }
+    
+    
+        
+    
+      
+    }
+
+
