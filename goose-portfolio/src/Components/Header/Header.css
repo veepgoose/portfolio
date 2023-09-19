@@ -70,6 +70,38 @@
     }
     
     .HeaderTitle {
+        width: 150%;
+        height: 170%;
+        transform: translate(-12%, 39%);
+       
+    }
+    
+    .ProfileImg {
+        display: flex;
+        width: 450px;
+        height: 750px;
+        border-radius: 0%;
+        transform: translate(119%, -39.6%);
+        
+    }
+    
+    .Goose {
+        position: absolute;
+        transform: translate(-20%, 193%)
+        
+    }
+}
+
+
+
+/* *REPLACEMENT CODE IF NEEDED*
+@media only screen and (min-width: 1280px) and (max-width:1600px) {
+    .Header {
+        height: 100vh;
+        width: 100vh; 
+    }
+    
+    .HeaderTitle {
         width: 170%;
         height: 170%;
         transform: translate(-12%, 39%);
@@ -90,4 +122,4 @@
         transform: translate(-20%, 165%)
         
     }
-}
+} */
