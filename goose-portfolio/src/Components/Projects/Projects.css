@@ -142,3 +142,76 @@
         border-radius: 20%;
       }
   }
+
+  @media (min-width: 768px) and (max-width: 1300px) {
+    .Projects {
+        position: relative;
+        background-color:#FFAAEA;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .ProjectsTitle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 0;
+        
+    }
+    
+    .ProjectsHeader {
+        position:absolute;
+        top: 0;
+            
+    }
+    
+    .ProjectsText {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.2em;
+        font-weight: bold;
+        text-align: center;
+        color: #534D56;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        text-shadow: 1px 1px 1px #FB6FC6;
+    }
+      
+    
+    .EggCarton {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20%;
+    }
+    
+    .ProjEgg {
+        height: 400px;
+        width: 350px;
+        margin-right: 70px;
+        margin-left: 70px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+    
+      .ProjEgg:hover {
+       cursor: pointer;
+      }
+    
+      .ProjEgg:active {
+        /* background-color: #EDE768;
+        box-shadow: 0 5px #fb6fc6; */
+        transform: translateY(4px);
+        border-radius: 20%;
+      }
+  }
