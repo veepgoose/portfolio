@@ -5,8 +5,8 @@
     margin-top: 95px;
     position: relative;
     top: 50%;
-    left: 41.5%;
-    transform: translate(-50%, -20%);
+    left: 50%;
+    transform: translate(-61%, -15%);
     border:20px solid #FB6FC6;
     border-radius: 5px;
     background-color: #EDE768;
@@ -37,20 +37,17 @@
 
 .AboutMe {
     width: 90%;
-    height:100%;
+    height:auto;
     margin: 0 auto;
-    margin-top: 240px;
-    margin-bottom: -150px;
+    margin-top: 250%;
+    margin-bottom: 10%;
     position: relative;
-    top: 50%;
-    left: 41.5%;
-    transform: translate(-44%, -20%);
+    transform: translate(-53%, -68%);
     border:10px solid #FB6FC6;
     border-radius: 5px;
     background-color: #EDE768;
     box-shadow: 0 4px 8px 0 #534D56;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-bottom: -220%;
  
 }
 
@@ -63,13 +60,8 @@
 }
 
 .AboutMeText {
-    text-align: center;
-    font-family: arial;
-    font-size: 0.8em;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: #534D56;
-    font-family: 'Fira Code', monospace;
+    font-size: 0.7em;
+   padding: 2%;
 }
 }
 
@@ -78,17 +70,18 @@
 
 .AboutMe {
     width: 80%;
-    height: 100%;
+    height: auto;
     margin: 0 auto;
     margin-top: 95px;
     position: relative;
     top: 50%;
-    left: 41.5%;
-    transform: translate(-50%, -20%);
+    left: 50%;
+    transform: translate(-50%, -50%);
     border:20px solid #FB6FC6;
     border-radius: 5px;
     background-color: #EDE768;
     box-shadow: 0 4px 8px 0 #534D56;
+    padding: 20px;
  
 }
 
@@ -101,12 +94,7 @@
 }
 
 .AboutMeText {
-    text-align: center;
-    font-family: arial;
     font-size: 17.5px;
-    padding-left: 40px;
-    padding-right: 40px;
-    color: #534D56;
-    font-family: 'Fira Code', monospace;
+    padding: 20px;
 }
 }
