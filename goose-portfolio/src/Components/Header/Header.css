@@ -72,23 +72,23 @@
     }
 }
 
-/* Small Laptop Screens */
+/* Small Laptop Screens & Mac Air*/
 
-@media only screen and (min-height: 1280px) and (max-width:1400px) {
+@media only screen and (min-width: 800px) and (max-width:1280px) {
     .Header {
         
         width: 70%; 
     }
     
     .HeaderTitle {
-        width: 150%;
-        margin-top: -3.5%;
+        width: 170%;
+        margin-top: -2.5%;
         
        
     }
     
     .ProfileImg {
-        max-width: 55%;
+        max-width: 60%;
         margin-top: -70%;
         margin-left: 15%;
         
