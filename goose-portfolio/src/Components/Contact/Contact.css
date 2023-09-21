@@ -76,16 +76,12 @@
   }
   
   .contact-card:hover {
-    scale: 0.85;
+    transform: scale 0.85;
     box-shadow: 0 2rem 3rem #83D4D4;
   }
   
   .contact-card img {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
-    align-items: center;
     width: 70px;
     z-index: 1;
     transition: all 0.15s ease-in-out;
@@ -129,15 +125,8 @@
 
   @media only screen and (max-width: 390px) {
     .Contact {
-      position: relative;
-      background-color: #EDE768;
       min-height: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      color: #83D4D4;
-      padding-bottom: 30px;
+      padding-bottom: 15%;
       
   }
   
