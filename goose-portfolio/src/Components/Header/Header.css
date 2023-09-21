@@ -131,6 +131,33 @@
     }
 }
 
+@media (max-height: 1200px) and (max-width: 1920px) {
+    .Header {
+        
+        width: 70%; 
+    }
+    
+    .HeaderTitle {
+        width: 150%;
+        margin-top: -0.5%;
+        
+       
+    }
+    
+    .ProfileImg {
+        max-width: 70%;
+        margin-top: -68.4%;
+        margin-left: 15%;
+    }
+    
+    .Goose {
+       width: 130%;  
+       bottom: 0%;
+       left: 25%;
+       transform: translateX(-50%);
+        
+    }
+}
 
 
 
