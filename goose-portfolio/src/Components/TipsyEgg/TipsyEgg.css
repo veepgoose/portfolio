@@ -1,3 +1,5 @@
+/* Normal Laptop Screens */
+
 .TipsyPage {
     height: 150vh;
     background-color: #EDE768;
@@ -78,7 +80,7 @@
     
 }
 
-/* Small Laptop Screens & Mac Air  */
+/* Normal Laptop Screens  */
 @media only screen and (min-width: 1280px) and (max-width: 1600px) {
 
     
@@ -94,7 +96,8 @@
     .TipsyOctoCat {
         width: 12%;
         height: auto;
-        margin-bottom: 0px;     
+        margin-bottom: 0px; 
+        margin-left: 4%;   
     }
     
     .TipsyOctoCat:hover {
@@ -110,7 +113,7 @@
         width: 10%;
         height: auto;
         margin-bottom: 0px;
-        margin-left: -8%;
+        margin-left: 7%;
       
     }
     
@@ -308,7 +311,7 @@
     
 
 }
-
+/* Large Screens */
 @media only screen and (min-width: 1920px) and (max-width: 2560px) {
     .TipsyPage {
         height: 150vh;

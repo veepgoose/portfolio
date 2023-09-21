@@ -1,3 +1,4 @@
+
 .LottoPage {
     background-color: #EDE768;
     color: hotpink
@@ -89,7 +90,7 @@
 
   
 }
-
+/* Normal Laptop Screens */
 @media only screen and (min-width: 1280px) and (max-width:1600px) {
 
     .LottoPage {
@@ -106,10 +107,10 @@
     }
     
     .OctoCat {
-        width: 145px;
-        height: 125px;
-        margin: 0 auto;
+        width: 12%;
+        height: auto;
         margin-bottom: 0px;
+        margin-left: 1%;
     
         
     }
@@ -124,11 +125,12 @@
     }
     
     .LottoEgg {
-        width: 120px;
-        height: 130px;
+        width: 10%;
+        height: auto;
         margin: 0 auto;
-        margin-bottom: 0px;
-        margin-left: -17%;
+        margin-bottom: -0%;
+        margin-left: -8%;
+
       
     }
     
@@ -268,6 +270,102 @@
    
     
       
+    }
+
+    /* Large Screens */
+
+    @media only screen and (min-width:1920px) and (max-width: 2560px){
+        .LottoPage {
+            background-color: #EDE768;
+            color: hotpink
+        }
+        
+        .LottoTitle {
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            margin-bottom: 20px;
+           
+            
+        }
+        
+        .OctoCat {
+            width: 230px;
+            height: 200px;
+            margin-top: -250px;
+            margin-bottom: 75px;
+            margin-left: 30px;
+            margin-right: 0px;
+            
+            
+        }
+        
+        .OctoCat:hover {
+            cursor: pointer;
+        }
+        
+        .OctoCat:active {
+            /* background-color: #EDE768; */
+            transform: scale(1.1);
+        }
+        
+        .LottoEgg {
+            width: 180px;
+            height: 200px;
+            margin-bottom: 75px;
+            margin-left: 10px;
+            margin-right: -50px;
+            margin-top: -50px;
+           
+          
+        }
+        
+        .LottoEgg:hover {
+            cursor: pointer;
+        }
+        
+        .LottoEgg:active {
+            /* background-color: #EDE768; */
+            transform: scale(1.1);
+        }
+        
+        .LottoApp {
+            width: 60%;
+            height: auto;
+            margin-left: 70px;
+            margin-right: 20px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            border-radius:30px;
+        }
+        
+        .LottoContainer {
+            display: flex;
+            align-items: flex-start;
+            
+        }
+        .LottoText {
+            display:flex;
+            flex:0.9;
+            flex-direction: column;
+            justify-content: flex-end;
+            position:relative;
+            align-self: flex-start;
+            font-size: 1.12em;
+            color: #534D56;
+            
+        }
+        
+        .HomeEgg1 {
+           display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            position:relative;
+            margin-bottom:20px;
+            
+        
+          
+        }
     }
 
 

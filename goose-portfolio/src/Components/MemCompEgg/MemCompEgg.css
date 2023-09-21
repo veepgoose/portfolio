@@ -81,6 +81,7 @@
     
 }
 
+/*Normal Laptop Screens*/
 @media only screen and (min-width: 1280px) and (max-width: 1600px) {
     .MemPage {
         height: 135vh;
@@ -97,9 +98,10 @@
     }
     
     .MemOctoCat {
-        width: 145px;
-        height: 125px;
+        width: 12%;
+        height: auto;
         margin-bottom: 0px;
+        margin-left: 4%;
         
     }
     
@@ -113,10 +115,10 @@
     }
     
     .MemAppEgg {
-        width: 120px;
-        height: 130px;
+        width: 10%;
+        height: auto;
         margin-bottom: 0px;
-        margin-left: -250px;
+        margin-left: -7%;
       
     }
     
