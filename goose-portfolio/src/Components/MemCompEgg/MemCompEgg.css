@@ -158,10 +158,7 @@
     .MemTitle {
         width: 120%;
         height: auto;
-        margin-bottom: -5px;
-       
-        
-    }
+        }
     
     .MemOctoCat {
         width: 100px;
@@ -201,7 +198,7 @@
     .MemApp {
         width: 90%;
         height: auto;
-        margin-left: 17px;
+        margin-left: -3px;
         margin-top: -30px;
         border-radius: 10px;
     }
