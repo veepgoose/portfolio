@@ -1,7 +1,7 @@
 /* Normal Laptop Screens */
 
 .TipsyPage {
-    height: 150vh;
+  
     background-color: #EDE768;
     color: hotpink
 }
@@ -82,7 +82,7 @@
 
 /* Normal Laptop Screens  */
 @media only screen and (min-width: 1280px) and (max-width: 1600px) {
-
+    
     
     .TipsyTitle {
         flex-direction: column;
