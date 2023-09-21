@@ -67,7 +67,7 @@
     }
 }
 
-@media only screen and (min-width: 1280px) and (max-width:1600px) {
+@media only screen and (max-height: 1280px) and (max-width:1400px) {
     .Header {
         
         width: 70%; 
@@ -103,7 +103,7 @@
     }
     
     .HeaderTitle {
-        width: 80%;
+        width: 0%;
         margin-top: 4.7%;
         
         
@@ -131,7 +131,7 @@
     }
 }
 
-@media (max-height: 1200px) and (max-width: 1920px) {
+@media (min-height: 1080px) and (max-width: 1920px) {
     .Header {
         
         width: 70%; 
