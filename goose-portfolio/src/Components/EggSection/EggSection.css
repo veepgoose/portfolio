@@ -76,12 +76,14 @@
   @media only screen and (min-width: 320px) and (max-width: 480px) {
 
       .UncrackedEgg {
-        width: 60%;
+        width: 80%;
+        max-width: 100%;
         height: auto;
       }
     
       .HatchingEgg {
         width: 100%;
+        max-width: 100%;
         height: auto;
         margin-top: 10%;
       }
