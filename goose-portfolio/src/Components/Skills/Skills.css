@@ -81,7 +81,7 @@
   }
   
   .skill-card:hover {
-    scale: 0.85;
+    transform: scale 0.85;
     box-shadow: 0 2rem 3rem #83D4D4;
   }
   
@@ -130,111 +130,47 @@
 
   @media only screen and (max-width:390px) {
     .Skills {
-      position: relative;
-      background-color: #EDE768;
       max-height: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      color: #83D4D4;
-      padding-bottom: 200px;
-      
+      padding-bottom: 50%;
+         
   }
   
   .SkillsTitle {
     width: 250px;
-    height: 100px;
+    height: auto;
     padding-left: 20px;
     margin-top: -30px;
     
       
   }
   
-  
-  
-  #skills {
-     
-      padding-top: 4rem;
-      position: relative;
-    }
-    
     .skills-container {
-      position: absolute;
       width: 100%;
       height: 100%;
-      /* top: 350px; */
       margin: 0 20%;
       padding-bottom: 20rem;
-      bottom: 10;
+      left: -2%;
   
     }
-    
-   
-    .skills-row {
-      position: relative;
-    }
-    
-    .skills-content {
-     
-       display: flex;
-      
-      
-    }
-    
-    .skills-slider {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      height: 22rem;
-      gap: 4rem;
-      padding: 0 1rem;
-     
-    
-    }
-    
-  
-    
-    .skills-slider::-webkit-scrollbar {
-      height: 2rem;
-     
-    }
-    
+ 
     .skill-card {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      border-radius: 3rem;
       width: 60px;
       height: 60px;
-      background: #FB6FC6;
-      box-shadow: 0 1.25rem 2rem#FFAAEA;
-      position: relative;
-      transition: all 0.15s ease-in-out;
-      color: #534D56; 
     }
     
-    .skill-card:hover {
-      scale: 0.85;
-      box-shadow: 0 2rem 3rem #83D4D4;
-    }
     
     .skill-card img {
-      position: absolute;
       width: 40px;
-      z-index: 1;
-      transition: all 0.15s ease-in-out;
     }
     
     .skill-card:hover img {
       scale: 2;
-      transform: translateY(-1.5rem);
+      transform: translateY(-1.2rem);
     }
     
     .skill-card .skill-name {
       position: absolute;
-      font-size: 1em;
+      font-size: 0.75em;
       opacity: 0;
       z-index: 0;
       transition: all 0.15s ease-in;
@@ -242,7 +178,7 @@
     
     .skill-card:hover .skill-name {
       display: block;
-      transform: translateY(4rem);
+      transform: translateY(3.5rem);
       opacity: 1;
     }
     
@@ -266,14 +202,7 @@
 
   @media only screen and (min-width:1280px) and (max-width: 1600px) {
     .Skills {
-      position: relative;
-      background-color: #EDE768;
       max-height: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      color: #83D4D4;
       padding-bottom: 250px;
       
   }
@@ -290,32 +219,18 @@
   #skills {
      
       padding-top: 4rem;
-      position: relative;
-    }
-    
-    .skills-container {
-      position: absolute;
-      width: 60%;
-      height: 100%;
-      /* top: 350px; */
-      margin: 0 20%;
-      padding-bottom: 20rem;
-      bottom: 10;
   
     }
     
-   
-    .skills-row {
-      position: relative;
+    .skills-container {
+      width: 60%;
+      height: 100%;
+      margin: 0 20%;
+      padding-bottom: 20rem;
+      /* bottom: 10; */
+  
     }
-    
-    .skills-content {
-     
-       display: flex;
       
-      
-    }
-    
     .skills-slider {
       display: flex;
       flex-wrap: wrap;
@@ -335,11 +250,6 @@
     }
     
     .skill-card {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      border-radius: 3rem;
       width: 120px;
       height: 130px;
       background: #FB6FC6;
@@ -355,7 +265,6 @@
     }
     
     .skill-card img {
-      position: absolute;
       width: 70px;
       z-index: 1;
       transition: all 0.15s ease-in-out;
@@ -398,7 +307,7 @@
     }
   }
 
-  @media (min-width: 768px) and (max-width: 1300px) {
+  @media (min-width: 768px) and (max-width: 1280px) {
     .Skills {
       position: relative;
       background-color: #EDE768;

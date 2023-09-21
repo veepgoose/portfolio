@@ -1,5 +1,4 @@
 .LottoPage {
-    height: 168vh;
     background-color: #EDE768;
     color: hotpink
 }
@@ -54,8 +53,8 @@
 }
 
 .LottoApp {
-    width: 1100px;
-    height: 900px;
+    width: 60%;
+    height: auto;
     margin-left: 70px;
     margin-right: 20px;
     margin-top: 40px;
@@ -75,7 +74,7 @@
     justify-content: flex-end;
     position:relative;
     align-self: flex-start;
-    font-size: 20px;
+    font-size: 1.12em;
     color: #534D56;
     
 }

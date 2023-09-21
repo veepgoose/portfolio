@@ -5,19 +5,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
-    
-    
-    
 
 }
 
-/* .FooterImg {
-    position: absolute;
-    left: 40px;
-    
-
-} */
 
 .GooseFooter {
    position: absolute;
@@ -93,3 +83,21 @@
     }
 }
 
+
+@media only screen and (max-width: 390px) {
+    .Footer {
+        max-height: 100%;
+    }
+
+    .FooterImg {
+        width: 80%;
+        height: 15%;
+    }
+
+    .GooseFooter {
+        position: relative;
+        width: 100%;
+        height: 10%;
+        transform: translate(10%, 85%);
+    }
+}
