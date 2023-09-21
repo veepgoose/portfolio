@@ -149,14 +149,14 @@
     }
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
     .MemPage {
         background-color: #EDE768;
         color: hotpink
     }
     
     .MemTitle {
-        width: 120%;
+        width: 100%;
         height: auto;
         }
     
