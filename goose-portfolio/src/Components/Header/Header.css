@@ -58,9 +58,10 @@
     }
     
     .ProfileImg {
-        width: 90%;
+        width: 60%;
         margin-top: -2.5%;
-        margin-left: -123%;
+        /* margin-left: -123%; */
+        padding-right: 120%;
     }
     
     .Goose {
@@ -159,9 +160,9 @@
     }
     
     .ProfileImg {
-        width: 60%;
+        width: 35%;
         height: auto;
-        margin-top: -77vh;
+        margin-top: -65.5vh;
         margin-right: -120%;
         
     }
