@@ -2,34 +2,31 @@
 .Header {
     position: relative;
     height: 100vh;
-    width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow:hidden;
     
 }
 
 .HeaderTitle {
     max-width: 100%;
-    height: auto;
-    margin-top: 0;
-    margin-right: 0%;
-    
-   
+    width: 80%;
+    margin: 0;
 }
 
 .ProfileImg {
     max-width: 100%;
+    width: 20%;
     height: auto;
-    margin-top: -70.5vh;
-    margin-right: -120%;
+    margin-top: 8rem;
+   
     
 }
 
 .Goose {
     position: absolute;
-    bottom: 0%;
+    bottom: 0;
     left: -30%;
     max-width: 100%;
     height: auto;
@@ -39,7 +36,7 @@
 
 /* Mobile Screens */
 
-@media only screen and (max-width: 480px)  {
+ @media only screen and (max-width: 480px)  {
     .Header {
         width: 100%; 
         height: auto;
@@ -57,9 +54,9 @@
     }
     
     .ProfileImg {
-        width: 49%;
-        margin-top: -2.5%;
-        margin-left: -85%;
+        width: 50%;
+        margin-top: 49%;
+        margin-left: -55%;
     }
     
     .Goose {
@@ -69,14 +66,15 @@
 
         
     }
-}
+} 
 
 /* Small Laptop Screens & Mac Air*/
-
-@media only screen and (min-width: 768px) and (max-width:1280px) {
+/* 
+ @media only screen and (min-width: 768px) and (max-width:1280px) {
     .Header {
         
-        width: 70%; 
+        width: 100%; 
+        height: auto;
     }
     
     .HeaderTitle {
@@ -100,30 +98,32 @@
        transform: translateX(-50%);
         
     }
-}
+ } */
 
 
 
 
-/*Normal Laptop Screens*/
-@media (min-width: 1280px) and (max-width: 1919px) {
+/* Normal Laptop Screens inc Mac Air */
+
+   @media (min-width: 1280px) and (max-width: 1919px) {
     .Header {
-        
         width: 100%; 
     }
     
     .HeaderTitle {
+        max-width: 100%;
         width: 70%;
-        margin-top: -0.5%;
-        margin-left: -25%;
+        margin-top: 0%;
+        margin-left: 2%;
         
        
     }
     
     .ProfileImg {
-        max-width: 17%;
-        margin-top: -31.7%;
-        margin-left: -55%;
+        max-width: 100%;
+        width: 20%;
+        margin-top: 9%;
+        margin-left: 3%;
     }
     
     .Goose {
@@ -133,11 +133,11 @@
        transform: translateX(-50%);
         
     }
-}
+}   
 
 /* Large Laptop Screens */
 
-@media only screen and (min-width: 1920px)  {
+ /* @media only screen and (min-width: 1920px)  {
     .Header {
         width: 85%;
     }
@@ -164,6 +164,6 @@
         width: 90%;
         height: auto;
     }
-}
+} */
 
-
+ 
