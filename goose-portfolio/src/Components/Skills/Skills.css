@@ -7,10 +7,13 @@
     align-items: center;
     justify-content: center;
     color: #83D4D4;
-    padding-bottom: 110px;
+    padding-bottom: 6rem;
+
+ 
     
 }
 
+/* START HERE! - ISSUES WITH WIDTH */
 .SkillsTitle {
     position: absolute;
     top: 0;
