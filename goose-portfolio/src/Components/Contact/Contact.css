@@ -2,31 +2,38 @@
 .Contact {
     position: relative;
     background-color: #EDE768;
-    min-height: 70vh;
+    min-height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     color: #83D4D4;
+    padding: 2rem;
     
 }
 
 .ContactTitle {
-   height: 200px;
-   padding-bottom: 40px;
+   width: 100%;
+   height: auto;
+   top: 0;
+   padding: 2rem;
+
     
 }
 
 #contact {
    
-    padding-top: 4rem;
+    padding-top: 1rem;
     position: relative;
   }
   
   .contact-container {
-    position: absolute;
-    right: 100px;
-    height:200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; 
+    margin: 2rem 0;
 
   }
   
@@ -47,7 +54,7 @@
     flex-wrap: wrap;
     justify-content: center;
     height: 22rem;
-    gap: 4rem;
+    gap: 2rem;
     padding: 0 1rem;
    
   
@@ -73,10 +80,11 @@
     position: relative;
     transition: all 0.15s ease-in-out;
     color: #534D56; 
+    margin: 1rem;
   }
   
   .contact-card:hover {
-    transform: scale 0.85;
+    transform: scale (0.85);
     box-shadow: 0 2rem 3rem #83D4D4;
   }
   
@@ -88,7 +96,7 @@
   }
   
   .contact-card:hover img {
-    scale: 2;
+    scale: (2);
     transform: translateY(-1.5rem);
   }
   
