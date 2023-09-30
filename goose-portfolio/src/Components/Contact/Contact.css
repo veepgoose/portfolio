@@ -142,19 +142,27 @@
   
   }
 
+  /* Mobile Screens */
   @media only screen and (min-width: 320px) and (max-width: 480px) {
     .Contact {
-      min-height: 100%;
-      padding-bottom: 15%;
+      width: 80%;
+     
       
   }
   
   .ContactTitle {
-     width: 90%;
+     width: 100%;
      height: auto;
-     padding-bottom: 30px;
-      
-  }
+     margin-left: -1.5rem;
+    }
+
+    .GooseFooter {
+      width: 70%; 
+      height: auto;
+      position: absolute;
+      bottom: 0;
+      left: 20%;
+    }
   
   #contact {
      
@@ -189,9 +197,10 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      height: 12rem;
-      gap: 2rem;
-      padding: 0 2rem;
+      width: 20rem;
+      height: auto;
+      gap: 1rem;
+      
      
     
     }
