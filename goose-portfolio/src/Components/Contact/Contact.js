@@ -2,7 +2,7 @@ import React from 'react';
 import './Contact.css';
 import ContactTitle from './Contact.png'
 import ContactIcons from './ContactIcons.js'
-
+import GooseFooter from './GooseAnimation.gif';
 function Contact () {
 
     return (
@@ -10,6 +10,7 @@ function Contact () {
          <div className="Contact">
          <div classsName="contact-container">
          <img src={ContactTitle} alt="ContactTitle" className="ContactTitle"/>
+         <img src={GooseFooter} alt="GooseFooter" className="GooseFooter"/>
           
          </div>
             <div className='contact-row'>
