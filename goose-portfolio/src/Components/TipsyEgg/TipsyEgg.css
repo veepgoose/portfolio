@@ -1,28 +1,26 @@
-/* Normal Laptop Screens */
-
 .TipsyPage {
-  
     background-color: #EDE768;
-    color: hotpink
+    color: hotpink;
+    text-align: center; 
 }
 
+/* This needs to adjusted as it's affecting mobile view*/
 .TipsyTitle {
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    margin-bottom: 20px;
-    margin-top: 20px;
-   
+    justify-content: flex-start; 
+    margin-bottom: 1rem; 
+    left: auto;
+    max-width: 80%;
     
+    
+
 }
 
 .TipsyOctoCat {
-    width: 230px;
-    height: 200px;
-    margin-top: 50px;
-    margin-bottom: 45px;
-    margin-left: 50px;
-    margin-right: 110px;
+    width: 10%; 
+    height: auto; 
+    margin-top: 1rem;
+    margin-bottom: 2rem; 
     
 }
 
@@ -31,17 +29,16 @@
 }
 
 .TipsyOctoCat:active {
-    /* background-color: #EDE768; */
     transform: scale(1.1);
 }
 
 .TipsyAppEgg {
-    width: 180px;
-    height: 200px;
-    margin-bottom: 45px;
-    margin-left: 400px;
-    margin-right: -50px;
-  
+    width: 8%;
+    height: auto; 
+    margin-bottom: 2rem; 
+    margin-top: 1rem; 
+    margin-left: 32rem;
+    
 }
 
 .TipsyAppEgg:hover {
@@ -49,25 +46,26 @@
 }
 
 .TipsyAppEgg:active {
-    /* background-color: #EDE768; */
     transform: scale(1.1);
 }
 
 .TipsyApp {
-    width: 1100px;
-    height: 900px;
-    margin-left: 70px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    margin-top: 40px;
-    border-radius:30px;
+    width: 110%; 
+    height: auto; 
+    margin: 3rem 0; 
+    border-radius: 1rem;
+    max-width: 900px; 
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+    margin-right: 2rem;
 }
 
 .TipsyContainer {
     display: flex;
     align-items: flex-start;
-    
+    margin-bottom: 2rem;
 }
+
 .TipsyText {
     display:flex;
     flex:0.9;
@@ -75,29 +73,35 @@
     justify-content: flex-end;
     position:relative;
     align-self: flex-start;
-    font-size: 20px;
+    text-align: left;
+    font-size: 1.12em;
     color: #534D56;
-    
 }
 
+
+
+
+
 /* Normal Laptop Screens  */
-@media only screen and (min-width: 1280px) and (max-width: 1600px) {
+@media only screen and (min-width: 1280px) and (max-width: 1919px) {
     
-    
+    /* This needs to be adjusted */
     .TipsyTitle {
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
-        margin-top: -20px;
-        margin-bottom: 5%;
+        padding-left: 5rem;
+       
+        
            
     }
     
     .TipsyOctoCat {
         width: 12%;
         height: auto;
-        margin-bottom: 0px; 
-        margin-left: 4%;   
+        margin-bottom: 0px;
+        margin-left: 1%;
+        
     }
     
     .TipsyOctoCat:hover {
@@ -105,15 +109,15 @@
     }
     
     .TipsyOctoCat:active {
-        /* background-color: #EDE768; */
         transform: scale(1.1);
     }
     
     .TipsyAppEgg {
         width: 10%;
         height: auto;
-        margin-bottom: 0px;
-        margin-left: 7%;
+        margin: 0 auto;
+        margin-bottom: -0%;
+        margin-left: -22%;
       
     }
     
@@ -122,7 +126,6 @@
     }
     
     .TipsyAppEgg:active {
-        /* background-color: #EDE768; */
         transform: scale(1.1);
     }
     
@@ -158,13 +161,18 @@
 @media only screen and (min-width:320px) and (max-width: 480px) {
 
     .TipsyPage {
+        width: 100%;
+        max-width: 100%;
         background-color: #EDE768;
         color: hotpink
     }
     
     .TipsyTitle {
         width: 100%;
-        height: auto;   
+        height: auto;
+        
+   
+        
     }
     
     .TipsyOctoCat {
@@ -189,7 +197,7 @@
         height: 95px;
         margin: 0 auto;
         margin-bottom: 75px;
-        margin-left: 25%;
+       
       
     }
     
@@ -205,8 +213,9 @@
     .TipsyApp {
         width: 90%;
         height: auto;
-        margin-left: 17px;
+        margin-left: 2rem;
         margin-top: -30px;
+        
     }
     
     .TipsyContainer {
@@ -222,11 +231,14 @@
         flex-direction: column;
         position:relative;
         align-self: flex-start;
+        text-align: center;
         font-size: 1em;
         color: #534D56;
         padding: 0 10px;
         
     }
+
+    
     
 
 }
@@ -259,7 +271,7 @@
     }
     
     .TipsyOctoCat:active {
-        /* background-color: #EDE768; */
+        
         transform: scale(1.1);
     }
     
@@ -277,7 +289,7 @@
     }
     
     .TipsyAppEgg:active {
-        /* background-color: #EDE768; */
+        
         transform: scale(1.1);
     }
     
@@ -310,7 +322,7 @@
 
 }
 /* Large Screens */
-@media only screen and (min-width: 1920px) and (max-width: 2560px) {
+/* @media only screen and (min-width: 1920px) and (max-width: 2560px) {
 
     .TipsyTitle {
         flex-direction: column;
@@ -333,7 +345,7 @@
     }
     
     .TipsyOctoCat:active {
-        /* background-color: #EDE768; */
+        
         transform: scale(1.1);
     }
     
@@ -349,7 +361,7 @@
     }
     
     .TipsyAppEgg:active {
-        /* background-color: #EDE768; */
+      
         transform: scale(1.1);
     }
     
@@ -379,4 +391,4 @@
         color: #534D56;
         
     }
-}
+} */

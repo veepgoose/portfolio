@@ -2,31 +2,39 @@
 .Contact {
     position: relative;
     background-color: #EDE768;
-    min-height: 70vh;
+    min-height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     color: #83D4D4;
+    padding: 2rem;
     
 }
 
 .ContactTitle {
-   height: 200px;
-   padding-bottom: 40px;
+   width: 100%;
+   height: auto;
+   top: 0;
+   padding-bottom: 2rem;
+   
+
     
 }
 
 #contact {
    
-    padding-top: 4rem;
+    padding-top: 1rem;
     position: relative;
   }
   
   .contact-container {
-    position: absolute;
-    right: 100px;
-    height:200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; 
+    margin: 2rem 0;
 
   }
   
@@ -47,7 +55,7 @@
     flex-wrap: wrap;
     justify-content: center;
     height: 22rem;
-    gap: 4rem;
+    gap: 2rem;
     padding: 0 1rem;
    
   
@@ -73,10 +81,11 @@
     position: relative;
     transition: all 0.15s ease-in-out;
     color: #534D56; 
+    margin: 1rem;
   }
   
   .contact-card:hover {
-    transform: scale 0.85;
+    transform: scale (0.85);
     box-shadow: 0 2rem 3rem #83D4D4;
   }
   
@@ -88,7 +97,7 @@
   }
   
   .contact-card:hover img {
-    scale: 2;
+    scale: (2);
     transform: translateY(-1.5rem);
   }
   
@@ -105,6 +114,17 @@
     transform: translateY(6rem);
     opacity: 1;
   }
+
+  .GooseFooter {
+    width: 50%; 
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+   
+    
+ 
+ }
   
 
   
@@ -123,19 +143,27 @@
   
   }
 
+  /* Mobile Screens */
   @media only screen and (min-width: 320px) and (max-width: 480px) {
     .Contact {
-      min-height: 100%;
-      padding-bottom: 15%;
+      width: 80%;
+     
       
   }
   
   .ContactTitle {
-     width: 90%;
+     width: 100%;
      height: auto;
-     padding-bottom: 30px;
-      
-  }
+     
+    }
+
+    .GooseFooter {
+      width: 70%; 
+      height: auto;
+      position: absolute;
+      bottom: 0;
+      left: 20%;
+    }
   
   #contact {
      
@@ -147,8 +175,6 @@
       position: absolute;
       width: 100%;
       height: 100%;
-      /* top: 350px; */
-      margin: 0 20%;
       padding-bottom: 20rem;
       bottom: 0;
   
@@ -170,9 +196,10 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      height: 12rem;
-      gap: 2rem;
-      padding: 0 2rem;
+      width: 20rem;
+      height: auto;
+      gap: 1rem;
+      
      
     
     }
@@ -250,4 +277,34 @@
       }
     
     }
+  /* Normal Laptop Screens inc Mac Air */
+
+  @media (min-width: 1280px) and (max-width: 1919px) {
+    .Contact {
+      position: relative;
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      
+      
+  }
+  
+  .ContactTitle {
+     width: 100%;
+     height: auto;
+     top: 0;
+     padding-bottom: 2rem;
+     
+  
+  
+      
+  }
+  
+
+
+}
+
   }

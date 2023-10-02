@@ -1,27 +1,24 @@
 
+
 .LottoPage {
     background-color: #EDE768;
-    color: hotpink
+    color: hotpink; 
+    text-align: center; 
 }
 
 .LottoTitle {
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    margin-bottom: 20px;
-   
-    
+    align-items: center; 
+    justify-content: center; 
+    margin-bottom: 1rem; 
+    margin-left: -7rem;
 }
 
 .OctoCat {
-    width: 230px;
-    height: 200px;
-    margin-top: -250px;
-    margin-bottom: 75px;
-    margin-left: 30px;
-    margin-right: 0px;
-    
-    
+    width: 10%; 
+    height: auto; 
+    margin-top: 1rem;
+    margin-bottom: 2rem; 
 }
 
 .OctoCat:hover {
@@ -29,19 +26,14 @@
 }
 
 .OctoCat:active {
-    /* background-color: #EDE768; */
     transform: scale(1.1);
 }
 
 .LottoEgg {
-    width: 180px;
-    height: 200px;
-    margin-bottom: 75px;
-    margin-left: 10px;
-    margin-right: -50px;
-    margin-top: -50px;
-   
-  
+    width: 8%;
+    height: auto; 
+    margin-bottom: 2rem; 
+    margin-top: 1rem; 
 }
 
 .LottoEgg:hover {
@@ -49,25 +41,27 @@
 }
 
 .LottoEgg:active {
-    /* background-color: #EDE768; */
     transform: scale(1.1);
 }
 
 .LottoApp {
-    width: 60%;
-    height: auto;
-    margin-left: 70px;
-    margin-right: 20px;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    border-radius:30px;
+    width: 100%; 
+    height: auto; 
+    margin: 3rem 0; 
+    border-radius: 1rem;
+    max-width: 900px; 
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+    margin-right: 2rem;
+    
 }
 
 .LottoContainer {
     display: flex;
     align-items: flex-start;
-    
+    margin-bottom: 2rem;
 }
+
 .LottoText {
     display:flex;
     flex:0.9;
@@ -75,23 +69,29 @@
     justify-content: flex-end;
     position:relative;
     align-self: flex-start;
+    text-align: left;
     font-size: 1.12em;
     color: #534D56;
-    
+
 }
 
 .HomeEgg1 {
-   display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    position:relative;
-    margin-bottom:20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
     
-
-  
 }
+
+
+
+
+
+
+
+
 /* Normal Laptop Screens */
-@media only screen and (min-width: 1280px) and (max-width:1600px) {
+@media only screen and (min-width: 1280px) and (max-width:1919px) {
 
     .LottoPage {
         height: 100%;
@@ -192,6 +192,7 @@
     .LottoTitle {
         width: 100%;
         height: auto;
+        padding-left: 6rem;
      }
     
     .OctoCat {
@@ -217,7 +218,7 @@
         height: 95px;
         margin: 0 auto;
         margin-bottom: 75px;
-        margin-left: 25%;
+       
        
       
     }
@@ -234,7 +235,7 @@
     .LottoApp {
         width: 90%;
         height: auto;
-        margin-left: 17px;
+        margin-left: 2rem;
         margin-top: -30px;
     }
     
@@ -251,6 +252,7 @@
         flex-direction: column;
         position:relative;
         align-self: flex-start;
+        text-align: center;
         font-size: 1em;
         color: #534D56;
         padding: 0 10px;
@@ -274,75 +276,4 @@
 
     /* Large Screens */
 
-    @media only screen and (min-width:1920px) and (max-width: 2560px){
-
-        .OctoCat {
-            width: 10%;
-            height: auto;
-            margin-left: 3%;     
-        }
-        
-        .OctoCat:hover {
-            cursor: pointer;
-        }
-        
-        .OctoCat:active {
-            /* background-color: #EDE768; */
-            transform: scale(1.1);
-        }
-        
-        .LottoEgg {
-            width: 8%;
-            height: auto;
-            margin-left: 0%;   
-        }
-        
-        .LottoEgg:hover {
-            cursor: pointer;
-        }
-        
-        .LottoEgg:active {
-            /* background-color: #EDE768; */
-            transform: scale(1.1);
-        }
-        
-        .LottoApp {
-            width: 60%;
-            height: auto;
-            margin-left: 70px;
-            margin-right: 20px;
-            margin-top: 40px;
-            margin-bottom: 20px;
-            border-radius:30px;
-        }
-        
-        .LottoContainer {
-            display: flex;
-            align-items: flex-start;
-            
-        }
-        .LottoText {
-            display:flex;
-            flex:0.9;
-            flex-direction: column;
-            justify-content: flex-end;
-            position:relative;
-            align-self: flex-start;
-            font-size: 1.12em;
-            color: #534D56;
-            
-        }
-        
-        .HomeEgg1 {
-           display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-            position:relative;
-            margin-bottom:20px;
-            
-        
-          
-        }
-    }
-
-
+   
