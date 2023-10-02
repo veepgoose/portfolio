@@ -1,16 +1,18 @@
 .TipsyPage {
     background-color: #EDE768;
     color: hotpink;
-    text-align: center; /* Center-align text */
+    text-align: center; 
 }
 
 /* This needs to adjusted as it's affecting mobile view*/
 .TipsyTitle {
     flex-direction: column;
     justify-content: flex-start; 
-    /* margin-bottom: 1rem; 
-    margin-left: -7rem;
-    margin-right: 30rem; */
+    margin-bottom: 1rem; 
+    left: auto;
+    max-width: 80%;
+    
+    
 
 }
 
@@ -35,6 +37,7 @@
     height: auto; 
     margin-bottom: 2rem; 
     margin-top: 1rem; 
+    margin-left: 32rem;
     
 }
 
@@ -80,7 +83,7 @@
 
 
 /* Normal Laptop Screens  */
-@media only screen and (min-width: 1280px) and (max-width: 1600px) {
+@media only screen and (min-width: 1280px) and (max-width: 1919px) {
     
     /* This needs to be adjusted */
     .TipsyTitle {
