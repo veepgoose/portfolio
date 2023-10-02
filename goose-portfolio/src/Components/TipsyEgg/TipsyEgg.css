@@ -86,16 +86,18 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
-        margin-top: -20px;
-        margin-bottom: 5%;
+        padding-left: 5rem;
+       
+        
            
     }
     
     .TipsyOctoCat {
         width: 12%;
         height: auto;
-        margin-bottom: 0px; 
-        margin-left: 4%;   
+        margin-bottom: 0px;
+        margin-left: 1%;
+        
     }
     
     .TipsyOctoCat:hover {
@@ -109,8 +111,9 @@
     .TipsyAppEgg {
         width: 10%;
         height: auto;
-        margin-bottom: 0px;
-        margin-left: 7%;
+        margin: 0 auto;
+        margin-bottom: -0%;
+        margin-left: -22%;
       
     }
     
