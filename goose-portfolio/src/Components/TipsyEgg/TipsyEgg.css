@@ -4,12 +4,13 @@
     text-align: center; /* Center-align text */
 }
 
+/* This needs to adjusted as it's affecting mobile view*/
 .TipsyTitle {
     flex-direction: column;
     justify-content: flex-start; 
-    margin-bottom: 1rem; 
+    /* margin-bottom: 1rem; 
     margin-left: -7rem;
-    margin-right: 30rem;
+    margin-right: 30rem; */
 
 }
 
@@ -81,7 +82,7 @@
 /* Normal Laptop Screens  */
 @media only screen and (min-width: 1280px) and (max-width: 1600px) {
     
-    
+    /* This needs to be adjusted */
     .TipsyTitle {
         flex-direction: column;
         align-items: flex-start;
@@ -157,13 +158,18 @@
 @media only screen and (min-width:320px) and (max-width: 480px) {
 
     .TipsyPage {
+        width: 100%;
+        max-width: 100%;
         background-color: #EDE768;
         color: hotpink
     }
     
     .TipsyTitle {
         width: 100%;
-        height: auto;   
+        height: auto;
+        
+   
+        
     }
     
     .TipsyOctoCat {
@@ -188,7 +194,7 @@
         height: 95px;
         margin: 0 auto;
         margin-bottom: 75px;
-        margin-left: 25%;
+       
       
     }
     
@@ -204,8 +210,9 @@
     .TipsyApp {
         width: 90%;
         height: auto;
-        margin-left: 17px;
+        margin-left: 2rem;
         margin-top: -30px;
+        
     }
     
     .TipsyContainer {
@@ -221,11 +228,14 @@
         flex-direction: column;
         position:relative;
         align-self: flex-start;
+        text-align: center;
         font-size: 1em;
         color: #534D56;
         padding: 0 10px;
         
     }
+
+    
     
 
 }

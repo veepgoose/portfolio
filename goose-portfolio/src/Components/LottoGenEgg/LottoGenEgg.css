@@ -192,6 +192,7 @@
     .LottoTitle {
         width: 100%;
         height: auto;
+        padding-left: 6rem;
      }
     
     .OctoCat {
@@ -217,7 +218,7 @@
         height: 95px;
         margin: 0 auto;
         margin-bottom: 75px;
-        margin-left: 25%;
+       
        
       
     }
@@ -251,6 +252,7 @@
         flex-direction: column;
         position:relative;
         align-self: flex-start;
+        text-align: center;
         font-size: 1em;
         color: #534D56;
         padding: 0 10px;

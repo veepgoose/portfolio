@@ -6,12 +6,13 @@
     text-align: center; 
 }
 
+/*This needs to adjusted for responsive view*/
 .MemTitle {
     flex-direction: column;
     align-items: center; 
     justify-content: center; 
-    margin-bottom: 1rem; 
-    margin-left: -7rem;
+    /* margin-bottom: 1rem; 
+    margin-left: -7rem; */
 }
 
 .MemOctoCat {
@@ -155,6 +156,8 @@
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
     .MemPage {
+        width: 100%;
+        height: auto;
         background-color: #EDE768;
         color: hotpink
     }
@@ -186,7 +189,7 @@
         height: 95px;
         margin: 0 auto;
         margin-bottom: 75px;
-        margin-left: 25%;
+        
       
     }
     
@@ -202,7 +205,7 @@
     .MemApp {
         width: 90%;
         height: auto;
-        margin-left: -3px;
+        margin-left: 2rem;
         margin-top: -30px;
         border-radius: 10px;
     }
@@ -220,6 +223,7 @@
         flex-direction: column;
         position:relative;
         align-self: flex-start;
+        text-align: center;
         font-size: 1em;
         color: #534D56;
         padding: 0 10px;
