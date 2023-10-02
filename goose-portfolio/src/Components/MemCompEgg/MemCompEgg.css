@@ -2,24 +2,23 @@
 
 .MemPage {
     background-color: #EDE768;
-    color: hotpink;
-    padding: 2rem 0; /* Added padding for spacing */
-    text-align: center; /* Center-align text */
+    color: hotpink; 
+    text-align: center; 
 }
 
 .MemTitle {
-    width: 100%; /* Full width for responsiveness */
-    margin-top: 1rem; /* Adjusted margin for spacing */
-    margin-bottom: 1rem; /* Adjusted margin for spacing */
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    margin-bottom: 1rem; 
+    margin-left: -7rem;
 }
 
 .MemOctoCat {
-    width: 100%; /* Full width for responsiveness */
-    height: auto; /* Allow height to adjust based on content */
-    margin-top: 1rem; /* Adjusted margin for spacing */
-    margin-bottom: 1rem; /* Adjusted margin for spacing */
-    margin-left: 0; /* Centered horizontally */
-    margin-right: 0; /* Centered horizontally */
+    width: 10%; 
+    height: auto; 
+    margin-top: 1rem;
+    margin-bottom: 4rem; 
 }
 
 .MemOctoCat:hover {
@@ -31,12 +30,10 @@
 }
 
 .MemAppEgg {
-    width: 100%; /* Full width for responsiveness */
-    height: auto; /* Allow height to adjust based on content */
-    margin-top: 1rem; /* Adjusted margin for spacing */
-    margin-bottom: 1rem; /* Adjusted margin for spacing */
-    margin-left: 0; /* Centered horizontally */
-    margin-right: 0; /* Centered horizontally */
+    width: 8%;
+    height: auto; 
+    margin-bottom: 4rem; 
+    margin-top: 1rem; 
 }
 
 .MemAppEgg:hover {
@@ -48,26 +45,32 @@
 }
 
 .MemApp {
-    width: 100%; /* Full width for responsiveness */
-    height: auto; /* Allow height to adjust based on content */
-    margin: 2rem 0; /* Adjusted margin for spacing */
-    border-radius: 30px;
-    max-width: 60%; /* Added max-width for larger screens */
-    padding: 0 2rem; /* Added padding for spacing */
+    width: 100%; 
+    height: auto; 
+    margin: 3rem 0; 
+    border-radius: 1rem;
+    max-width: 900px; 
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+    margin-right: 2rem;
 }
 
 .MemContainer {
     display: flex;
-    flex-direction: column; /* Adjusted flex direction for responsiveness */
-    align-items: center; /* Center-align items horizontally */
-    text-align: center; /* Center-align text */
+    align-items: flex-start;
+    margin-bottom: 2rem;
 }
 
 .MemText {
-    font-size: 1.05em;
+    display:flex;
+    flex:0.9;
+    flex-direction: column;
+    justify-content: flex-end;
+    position:relative;
+    align-self: flex-start;
+    text-align: left;
+    font-size: 1.12em;
     color: #534D56;
-    margin-top: 1rem; /* Adjusted margin for spacing */
-    margin-bottom: 1rem; /* Adjusted margin for spacing */
 
 }
 
