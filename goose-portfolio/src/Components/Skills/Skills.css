@@ -214,17 +214,23 @@
     }
   }
 
-  @media only screen and (min-width:1280px) and (max-width: 1600px) {
+  /* Normal Laptop Screens inc Mac Air */
+
+  @media (min-width: 1280px) and (max-width: 1919px) {
     .Skills {
-      max-height: 100%;
-      padding-bottom: 250px;
-      
-  }
+      min-height: 100vh;
+      width: 100%;
+      padding-bottom: 6rem;
+   }
+  
   
   .SkillsTitle {
-      position: absolute;
-      top: 0;
-      height:200px;
+    position: absolute;
+    top: 0;
+    height: auto;
+    width: 30%;
+    
+      
       
   }
   
@@ -233,92 +239,19 @@
   #skills {
      
       padding-top: 4rem;
-  
+      position: relative;
     }
     
     .skills-container {
-      width: 60%;
-      height: 100%;
-      margin: 0 20%;
-      padding-bottom: 20rem;
-      /* bottom: 10; */
-  
-    }
-      
-    .skills-slider {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      height: 22rem;
-      gap: 4rem;
-      padding: 0 1rem;
-     
-    
-    }
-    
-  
-    
-    .skills-slider::-webkit-scrollbar {
-      height: 2rem;
-     
-    }
-    
-    .skill-card {
-      width: 120px;
-      height: 130px;
-      background: #FB6FC6;
-      box-shadow: 0 1.25rem 2rem#FFAAEA;
-      position: relative;
-      transition: all 0.15s ease-in-out;
-      color: #534D56; 
-    }
-    
-    .skill-card:hover {
-      scale: 0.85;
-      box-shadow: 0 2rem 3rem #83D4D4;
-    }
-    
-    .skill-card img {
-      width: 70px;
-      z-index: 1;
-      transition: all 0.15s ease-in-out;
-    }
-    
-    .skill-card:hover img {
-      scale: 2;
-      transform: translateY(-1.5rem);
-    }
-    
-    .skill-card .skill-name {
       position: absolute;
-      font-size: 20px;
-      opacity: 0;
-      z-index: 0;
-      transition: all 0.15s ease-in;
-    }
-    
-    .skill-card:hover .skill-name {
-      display: block;
-      transform: translateY(6rem);
-      opacity: 1;
-    }
-    
+      top: 22rem;
+      margin: 0 4%;
+      padding-bottom: 10rem;
+      bottom: 10;
+      width: 90%;
   
-    
-   
-    
-    @media screen and (max-width: 1023px) {
-    
     }
-    
-    @media screen and (max-width: 599px) {
-    
-      .skills-container {
-        margin: 0 10%;
-      
-      }
-    
-    }
+
   }
 
   @media (min-width: 768px) and (max-width: 1280px) {

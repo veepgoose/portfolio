@@ -16,7 +16,8 @@
    width: 100%;
    height: auto;
    top: 0;
-   padding: 2rem;
+   padding-bottom: 2rem;
+   
 
     
 }
@@ -278,4 +279,34 @@
       }
     
     }
+  /* Normal Laptop Screens inc Mac Air */
+
+  @media (min-width: 1280px) and (max-width: 1919px) {
+    .Contact {
+      position: relative;
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      
+      
+  }
+  
+  .ContactTitle {
+     width: 100%;
+     height: auto;
+     top: 0;
+     padding-bottom: 2rem;
+     
+  
+  
+      
+  }
+  
+
+
+}
+
   }
