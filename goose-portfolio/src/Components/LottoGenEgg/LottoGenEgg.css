@@ -1,4 +1,4 @@
-
+/* 
 .LottoPage {
     background-color: #EDE768;
     color: hotpink
@@ -29,7 +29,6 @@
 }
 
 .OctoCat:active {
-    /* background-color: #EDE768; */
     transform: scale(1.1);
 }
 
@@ -49,7 +48,6 @@
 }
 
 .LottoEgg:active {
-    /* background-color: #EDE768; */
     transform: scale(1.1);
 }
 
@@ -89,9 +87,94 @@
     
 
   
+} */
+
+/* New Parent CSS */
+
+.LottoPage {
+    background-color: #EDE768;
+    color: hotpink;
+    padding: 2rem 0; /* Added padding for spacing */
+    text-align: center; /* Center-align text */
 }
+
+.LottoTitle {
+    flex-direction: column;
+    align-items: center; /* Center-align items horizontally */
+    justify-content: center; /* Center-align items vertically */
+    margin-bottom: 2rem; /* Adjusted margin for spacing */
+}
+
+.OctoCat {
+    width: 100%; /* Full width for responsiveness */
+    height: auto; /* Allow height to adjust based on content */
+    margin-top: 1rem; /* Adjusted margin for spacing */
+    margin-bottom: 2rem; /* Adjusted margin for spacing */
+}
+
+.OctoCat:hover {
+    cursor: pointer;
+}
+
+.OctoCat:active {
+    transform: scale(1.1);
+}
+
+.LottoEgg {
+    width: 100%; /* Full width for responsiveness */
+    height: auto; /* Allow height to adjust based on content */
+    margin-bottom: 2rem; /* Adjusted margin for spacing */
+    margin-top: 1rem; /* Adjusted margin for spacing */
+}
+
+.LottoEgg:hover {
+    cursor: pointer;
+}
+
+.LottoEgg:active {
+    transform: scale(1.1);
+}
+
+.LottoApp {
+    width: 100%; /* Full width for responsiveness */
+    height: auto; /* Allow height to adjust based on content */
+    margin: 2rem 0; /* Adjusted margin for spacing */
+    border-radius: 30px;
+    max-width: 900px; /* Added max-width for larger screens */
+    padding: 0 2rem; /* Added padding for spacing */
+}
+
+.LottoContainer {
+    display: flex;
+    flex-direction: column; /* Adjusted flex direction for responsiveness */
+    align-items: center; /* Center-align items horizontally */
+    text-align: center; /* Center-align text */
+}
+
+.LottoText {
+    font-size: 1.12em;
+    color: #534D56;
+    margin-top: 1rem; /* Adjusted margin for spacing */
+    margin-bottom: 1rem; /* Adjusted margin for spacing */
+}
+
+.HomeEgg1 {
+    display: flex;
+    flex-direction: column; /* Adjusted flex direction for responsiveness */
+    align-items: center; /* Center-align items horizontally */
+    text-align: center; /* Center-align text */
+    margin-bottom: 2rem; /* Adjusted margin for spacing */
+}
+
+
+
+
+
+
+
+
 /* Normal Laptop Screens */
-@media only screen and (min-width: 1280px) and (max-width:1600px) {
+@media only screen and (min-width: 1280px) and (max-width:1919px) {
 
     .LottoPage {
         height: 100%;
