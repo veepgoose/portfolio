@@ -6,13 +6,12 @@
     text-align: center; 
 }
 
-/*This needs to adjusted for responsive view*/
+
 .MemTitle {
     flex-direction: column;
     align-items: center; 
     justify-content: center; 
-    /* margin-bottom: 1rem; 
-    margin-left: -7rem; */
+    
 }
 
 .MemOctoCat {
@@ -232,6 +231,8 @@
     
 }
 
+ /* Mac Air*/
+
 @media (min-width: 768px) and (max-width: 1280px) {
     .MemPage {
         height: 135vh;
@@ -243,6 +244,7 @@
         width: 80%;
         margin-top: 0px;
         margin-bottom: -10px;
+        margin-left: -3rem;
        
         
     }
@@ -251,7 +253,7 @@
         width: 145px;
         height: 125px;
         margin-bottom: 0px;
-        margin-left: 4%;
+        margin-left: 0%;
         
     }
     
@@ -268,7 +270,7 @@
         width: 120px;
         height: 130px;
         margin-bottom: 0px;
-        margin-left: -10%;
+       
       
     }
     

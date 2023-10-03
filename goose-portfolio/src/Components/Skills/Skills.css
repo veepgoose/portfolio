@@ -213,7 +213,7 @@
     }
   }
 
-  /* Normal Laptop Screens inc Mac Air */
+  /* Normal Laptop Screens */
 
   @media (min-width: 1280px) and (max-width: 1919px) {
     .Skills {
@@ -264,7 +264,7 @@
       align-items: center;
       justify-content: center;
       color: #83D4D4;
-      padding-bottom: 250px;
+      padding-bottom: 12rem;
       
   }
   
@@ -286,9 +286,9 @@
     
     .skills-container {
       position: absolute;
-      width: 60%;
+      width: 90%;
       height: 100%;
-      margin: 0 20%;
+    
       padding-bottom: 20rem;
       bottom: 10;
   
