@@ -144,7 +144,7 @@
   }
 
   /* Mobile Screens */
-  @media only screen and (min-width: 320px) and (max-width: 480px) {
+  @media only screen and (max-width: 480px) {
     .Contact {
       width: 80%;
      
@@ -260,23 +260,41 @@
       transform: translateY(4rem);
       opacity: 1;
     }
+  }
+
+  @media only screen and (max-width: 320px) {
+    .contact-slider {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 18rem;
+      height: auto;
+      gap: 1rem;
+    }
     
+    .contact-slider::-webkit-scrollbar {
+      height: 2rem;
+     
+    }
+    
+    .contact-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 3rem;
+      width: 60px;
+      height: 60px;
+      background: #FB6FC6;
+      box-shadow: 0 1.25rem 2rem#FFAAEA;
+      position: relative;
+      transition: all 0.15s ease-in-out;
+      color: #534D56; 
+      margin: 0.45rem;
+    }
+
+  }
   
-    
-   
-    
-    @media screen and (max-width: 1023px) {
-    
-    }
-    
-    @media screen and (max-width: 599px) {
-    
-      .contact-container {
-        margin: -40% 2%;
-      
-      }
-    
-    }
   /* Normal Laptop Screens inc Mac Air */
 
   @media (min-width: 1280px) and (max-width: 1919px) {
@@ -303,8 +321,4 @@
       
   }
   
-
-
-}
-
   }
