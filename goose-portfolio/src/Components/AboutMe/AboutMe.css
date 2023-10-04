@@ -98,7 +98,34 @@
     }
 }
 
-@media only screen and (min-width: 1280px) and (max-width:1600px) {
+/* Ipads and Tablets */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .AboutMe {
+        width: 90%;
+        height:auto;
+        position: relative;
+        border:0.5rem solid #FB6FC6;
+        margin-top: 25%;
+        left: 56%;
+       }
+    
+ .AboutMeText {
+        font-size: 0.6em;
+       padding: 1%;
+    }
+}.AboutMeTitle {
+    position: relative;
+    height: auto;
+    width: 70%;
+    
+
+}
+
+
+
+
+@media only screen and (min-width: 1281px) and (max-width:1919px) {
     
 
 .AboutMe {
@@ -108,7 +135,6 @@
     margin-top: 95px;
     position: relative;
     top: 50%;
-    left: 50%;
     transform: translate(-59.5%, -10%);
     border:20px solid #FB6FC6;
     border-radius: 5px;
@@ -131,3 +157,4 @@
     padding: 20px;
 }
 }
+

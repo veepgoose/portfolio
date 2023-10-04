@@ -294,13 +294,52 @@
     }
 
   }
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .Contact 
+
+      .Contact {
+        position: relative;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+    
+    .ContactTitle {
+       width: 70%;
+       height: auto;
+       top: 0;
+       padding-bottom: 2rem;
+     }
+    
+     .contact-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 3rem;
+      width: 110px;
+      height: 110px;
+      background: #FB6FC6;
+      box-shadow: 0 1.25rem 2rem#FFAAEA;
+      position: relative;
+      transition: all 0.15s ease-in-out;
+      color: #534D56; 
+      margin: 0.7rem;
+    }
+}
   
-  /* Normal Laptop Screens inc Mac Air */
+  /* Normal Laptop Screens*/
 
   @media (min-width: 1280px) and (max-width: 1919px) {
     .Contact {
       position: relative;
-      width: 100%;
+      width: 95%;
       height: auto;
       display: flex;
       flex-direction: column;

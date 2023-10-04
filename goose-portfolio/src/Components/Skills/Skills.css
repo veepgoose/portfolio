@@ -392,6 +392,121 @@
   }
 
 }
+
+/* Ipads and Tablets */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .Skills {
+    position: relative;
+    background-color: #EDE768;
+    min-height: 89vh;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #83D4D4;
+    padding-bottom:5rem;   
+}
+
+.SkillsTitle {
+  position: absolute;
+  height: auto;
+  width: 50%;   
+}
+
+#skills {
+   
+    padding-top: 4rem;
+    position: relative;
+  }
+  
+  .skills-container {
+    position: absolute;
+    top: 15rem;
+    margin: 0 10%;
+    padding-bottom: 10rem;
+    bottom: 10;
+    width: 80%;
+
+  }
+  
+    .skills-row {
+    position: relative;
+  }
+  
+  .skills-content {
+   
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 2rem;
+    
+    
+  }
+  
+  .skills-slider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 22rem;
+    gap: 1rem;
+    padding: 0 1rem;
+  }
+
+  .skills-slider::-webkit-scrollbar {
+    height: 2rem; 
+  }
+  
+  .skill-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3rem;
+    width: 110px;
+    height: 110px;
+    background: #FB6FC6;
+    box-shadow: 0 1.25rem 2rem#FFAAEA;
+    position: relative;
+    transition: all 0.15s ease-in-out;
+    color: #534D56;
+    margin: 0.7rem; 
+  }
+  
+  .skill-card:hover {
+    transform: scale 0.85;
+    box-shadow: 0 2rem 3rem #83D4D4;
+  }
+  
+  .skill-card img {
+    position: absolute;
+    width: 70px;
+    z-index: 1;
+    transition: all 0.15s ease-in-out;
+  }
+  
+  .skill-card:hover img {
+    scale: 2;
+    transform: translateY(-1.5rem);
+  }
+  
+  .skill-card .skill-name {
+    position: absolute;
+    font-size: 1rem;
+    opacity: 0;
+    z-index: 0;
+    transition: all 0.15s ease-in;
+  }
+  
+  .skill-card:hover .skill-name {
+    display: block;
+    transform: translateY(5rem);
+    opacity: 1;
+  }
+}
+
   
 
   /* Normal Laptop Screens */
@@ -428,7 +543,7 @@
   }
 
   /* Mac Air*/
-  @media (min-width: 768px) and (max-width: 1280px) {
+  @media only screen and (width: 1280px) {
     .Skills {
       position: relative;
       background-color: #EDE768;
