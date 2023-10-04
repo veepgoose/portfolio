@@ -393,6 +393,78 @@
 
 }
 
+@media only screen and (min-width: 412px) and (max-width:428px) {
+  .Skills {
+    width: 100%;
+    max-height: 120vh;
+    height:auto;
+    padding-bottom: 6.5rem;
+      
+}
+
+.SkillsTitle {
+  width: 70vw;
+  height: auto;   
+  top: -2rem;
+}
+
+  .skills-container {
+    width: 90%;
+    height: auto;
+    top: 11rem;
+
+  }
+
+  .skills-slider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 22rem;
+    gap: 2rem;
+    
+  }
+
+
+  .skill-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3rem;
+    width: 60px;
+    height: 60px;
+    background: #FB6FC6;
+    box-shadow: 0 1.25rem 2rem#FFAAEA;
+    position: relative;
+    transition: all 0.15s ease-in-out;
+    color: #534D56;
+    margin: 0.45rem; 
+  }
+  
+  .skill-card img {
+    width: 40px;
+  }
+  
+  .skill-card:hover img {
+    scale: 2;
+    transform: translateY(-1.2rem);
+  }
+  
+  .skill-card .skill-name {
+    position: absolute;
+    font-size: 0.75em;
+    opacity: 0;
+    z-index: 0;
+    transition: all 0.15s ease-in;
+  }
+  
+  .skill-card:hover .skill-name {
+    display: block;
+    transform: translateY(3rem);
+    opacity: 1;
+  }
+}
+
 /* Ipads and Tablets */
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {

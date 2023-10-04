@@ -31,7 +31,7 @@
 }
 
 /*Mobile Screens */
-@media only screen and (min-width: 361px) and (max-width:480px) {
+@media only screen and (min-width: 390px) and (max-width:480px) {
     
 
 .AboutMe {
@@ -63,6 +63,74 @@
    padding: 2%;
 }
 }
+
+@media only screen and (min-width: 361px) and (max-width:389px) {
+    
+
+    .AboutMe {
+        width: 90%;
+        height:auto;
+        margin: 0 auto;
+        margin-top: 255%;
+        margin-bottom: 10%;
+        position: relative;
+        transform: translate(-53%, -65%);
+        border:10px solid #FB6FC6;
+        border-radius: 5px;
+        background-color: #EDE768;
+        box-shadow: 0 4px 8px 0 #534D56;
+        margin-bottom: -235%;
+     
+    }
+    
+    .AboutMeTitle {
+        position: relative;
+        height: 40%;
+        width: 80%;
+        
+    
+    }
+    
+    .AboutMeText {
+        font-size: 0.7em;
+       padding: 2%;
+    }
+    }
+    
+    /* Large mobiles */
+    @media only screen and (min-width: 412px) and (max-width:428px) {
+    
+
+        .AboutMe {
+            width: 90%;
+            height:auto;
+            margin: 0 auto;
+            margin-top: 225%;
+            margin-bottom: 10%;
+            position: relative;
+            transform: translate(-53%, -65%);
+            border:10px solid #FB6FC6;
+            border-radius: 5px;
+            background-color: #EDE768;
+            box-shadow: 0 4px 8px 0 #534D56;
+            margin-bottom: -205%;
+         
+        }
+        
+        .AboutMeTitle {
+            position: relative;
+            height: 40%;
+            width: 80%;
+            
+        
+        }
+        
+        .AboutMeText {
+            font-size: 0.7em;
+           padding: 2%;
+        }
+        }
+        
 
 @media only screen and (max-width: 320px) {
     .AboutMe {
