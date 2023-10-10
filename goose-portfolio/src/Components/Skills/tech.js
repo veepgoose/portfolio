@@ -1,4 +1,3 @@
-import babel from '../Assets/babel.svg';
 import css from '../Assets/css.svg';
 import figma from '../Assets/figma.svg';
 import git from '../Assets/git.svg';
@@ -83,10 +82,7 @@ export const tech = [
     icon: postman
   },
 
-  {
-    name: 'Babel',
-    icon: babel
-  },
+ 
   {
     name: 'Git',
     icon: git
