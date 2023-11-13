@@ -68,6 +68,7 @@
   .ProjEgg:active {
     transform: translateY(4px);
     border-radius: 20%;
+    
   }
 
   /* Mobile Screens */
